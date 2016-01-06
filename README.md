@@ -19,3 +19,16 @@ For looking over the code:
 
 The three files that we coded kdtrees.ml, kdtest.ml, and pixels.ml. kdtrees.ml is the structure for the kd tree we used to store images--including the nearest neighbor function that is the heart of the program. In kdtest.ml are the tests we wrote along the way to make sure everything was working, and pixels.ml creates the photo-mosaic and is the main integration with camlimages. 
 
+
+How we installed camlimages (definitely not safe, but how we got it to work): 
+
+1. Download and install camlimages and make via “sudo opam install camlimages”
+
+2. Unlock appropriate permissions
+sudo chmod -R 777 ~/.opam/packages/omake
+sudo chmod -R 777 ~/.opam/packages/camlimages
+sudo chmod -R 777 ~/.opam/system/lib/omake
+sudo chmod -R 777 ~/.opam/system/lib/camlimages
+sudo chmod -R 777 ~/.omake
+
+3. Camlimages package should now appear in utop when you run #list “camlimages”;;
