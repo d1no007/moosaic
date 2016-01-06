@@ -33,4 +33,8 @@ sudo chmod -R 777 ~/.omake
 3. Camlimages package should now appear in utop when you run #list “camlimages”;;
 
 # More mosaics we made 
-Navigate to the "mosaics" folder to see more examples of mosaics we made! 
+![greg](mosaics/outoutgregmoosaic.bmp)
+![allison](mosaics/outoutallison.bmp)
+![daven](mosaics/outoutdavdaddyy.bmp)
+![lighthouse](mosaics/outoutl.bmp)
+
