@@ -1,4 +1,4 @@
-# Moosaic: A program for creating BMP Photo-mosaics written in OCaml 
+# Moosaic: A program for creating BMP Photomosaics written in OCaml 
 ### Gabriela Merz, Dino Rodriguez, Chase Davis, and Samuel Stone 
 ![rob](mosaics/outoutrob.bmp)
 
@@ -31,3 +31,6 @@ sudo chmod -R 777 ~/.opam/system/lib/camlimages
 sudo chmod -R 777 ~/.omake
 
 3. Camlimages package should now appear in utop when you run #list “camlimages”;;
+
+# More mosaics we made 
+Navigate to the "mosaics" folder to see more examples of mosaics we made! 
