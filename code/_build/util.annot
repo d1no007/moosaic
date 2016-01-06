@@ -1,0 +1,241 @@
+"util.ml" 17 1016 1020 "util.ml" 17 1016 1029
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  def set_bytes "util.ml" 18 1042 1042 "util.ml" 1 0 -1
+)
+"util.ml" 17 1016 1032 "util.ml" 17 1016 1041
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  ext_ref Bytes.set
+)
+"util.ml" 18 1042 1046 "util.ml" 18 1042 1052
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  def unsafe "util.ml" 20 1073 1073 "util.ml" 1 0 -1
+)
+"util.ml" 18 1042 1055 "util.ml" 18 1042 1071
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  ext_ref Bytes.unsafe_set
+)
+"util.ml" 20 1073 1077 "util.ml" 20 1073 1088
+type(
+  bytes -> int -> int -> unit
+)
+ident(
+  def range_check "util.ml" 25 1225 1225 "util.ml" 1 0 -1
+)
+"util.ml" 20 1073 1089 "util.ml" 20 1073 1090
+type(
+  bytes
+)
+ident(
+  def s "util.ml" 20 1073 1091 "util.ml" 23 1186 1223
+)
+"util.ml" 20 1073 1091 "util.ml" 20 1073 1095
+type(
+  int
+)
+ident(
+  def from "util.ml" 20 1073 1096 "util.ml" 23 1186 1223
+)
+"util.ml" 20 1073 1096 "util.ml" 20 1073 1099
+type(
+  int
+)
+ident(
+  def to_ "util.ml" 21 1102 1104 "util.ml" 23 1186 1223
+)
+"util.ml" 21 1102 1108 "util.ml" 21 1102 1111
+type(
+  int
+)
+ident(
+  def len "util.ml" 22 1132 1134 "util.ml" 23 1186 1223
+)
+"util.ml" 21 1102 1114 "util.ml" 21 1102 1126
+type(
+  bytes -> int
+)
+ident(
+  ext_ref Bytes.length
+)
+"util.ml" 21 1102 1127 "util.ml" 21 1102 1128
+type(
+  bytes
+)
+ident(
+  int_ref s "util.ml" 20 1073 1089 "util.ml" 20 1073 1090
+)
+"util.ml" 21 1102 1114 "util.ml" 21 1102 1128
+type(
+  int
+)
+"util.ml" 22 1132 1137 "util.ml" 22 1132 1140
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"util.ml" 22 1132 1142 "util.ml" 22 1132 1143
+type(
+  int
+)
+"util.ml" 22 1132 1144 "util.ml" 22 1132 1146
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"util.ml" 22 1132 1147 "util.ml" 22 1132 1151
+type(
+  int
+)
+ident(
+  int_ref from "util.ml" 20 1073 1091 "util.ml" 20 1073 1095
+)
+"util.ml" 22 1132 1142 "util.ml" 22 1132 1151
+type(
+  bool
+)
+"util.ml" 22 1132 1152 "util.ml" 22 1132 1154
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"util.ml" 22 1132 1155 "util.ml" 22 1132 1159
+type(
+  int
+)
+ident(
+  int_ref from "util.ml" 20 1073 1091 "util.ml" 20 1073 1095
+)
+"util.ml" 22 1132 1160 "util.ml" 22 1132 1162
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"util.ml" 22 1132 1163 "util.ml" 22 1132 1166
+type(
+  int
+)
+ident(
+  int_ref to_ "util.ml" 20 1073 1096 "util.ml" 20 1073 1099
+)
+"util.ml" 22 1132 1155 "util.ml" 22 1132 1166
+type(
+  bool
+)
+"util.ml" 22 1132 1167 "util.ml" 22 1132 1169
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"util.ml" 22 1132 1170 "util.ml" 22 1132 1173
+type(
+  int
+)
+ident(
+  int_ref to_ "util.ml" 20 1073 1096 "util.ml" 20 1073 1099
+)
+"util.ml" 22 1132 1174 "util.ml" 22 1132 1175
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"util.ml" 22 1132 1176 "util.ml" 22 1132 1179
+type(
+  int
+)
+ident(
+  int_ref len "util.ml" 21 1102 1108 "util.ml" 21 1102 1111
+)
+"util.ml" 22 1132 1170 "util.ml" 22 1132 1179
+type(
+  bool
+)
+"util.ml" 22 1132 1155 "util.ml" 22 1132 1179
+type(
+  bool
+)
+"util.ml" 22 1132 1142 "util.ml" 22 1132 1179
+type(
+  bool
+)
+"util.ml" 22 1132 1137 "util.ml" 22 1132 1180
+type(
+  bool
+)
+"util.ml" 23 1186 1190 "util.ml" 23 1186 1201
+type(
+  bytes -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"util.ml" 23 1186 1202 "util.ml" 23 1186 1223
+type(
+  bytes
+)
+"util.ml" 23 1186 1190 "util.ml" 23 1186 1223
+call(
+  tail
+)
+type(
+  unit
+)
+"util.ml" 22 1132 1134 "util.ml" 23 1186 1223
+type(
+  unit
+)
+type(
+  unit
+)
+"util.ml" 21 1102 1104 "util.ml" 23 1186 1223
+type(
+  unit
+)
+"util.ml" 20 1073 1096 "util.ml" 23 1186 1223
+type(
+  int -> unit
+)
+"util.ml" 20 1073 1091 "util.ml" 23 1186 1223
+type(
+  int -> int -> unit
+)
+"util.ml" 20 1073 1089 "util.ml" 23 1186 1223
+type(
+  bytes -> int -> int -> unit
+)
+"util.ml" 25 1225 1229 "util.ml" 25 1225 1241
+type(
+  'a array -> int -> 'a
+)
+ident(
+  def unsafe_array "util.ml" 25 1225 1260 "util.ml" 1 0 -1
+)
+"util.ml" 25 1225 1244 "util.ml" 25 1225 1260
+type(
+  'a array -> int -> 'a
+)
+ident(
+  ext_ref Array.unsafe_get
+)

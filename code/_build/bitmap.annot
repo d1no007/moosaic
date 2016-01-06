@@ -1,0 +1,3735 @@
+"bitmap.ml" 17 886 890 "bitmap.ml" 17 886 895
+type(
+  bool ref
+)
+ident(
+  def debug "bitmap.ml" 18 909 909 "bitmap.ml" 1 0 -1
+)
+"bitmap.ml" 17 886 898 "bitmap.ml" 17 886 901
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"bitmap.ml" 17 886 902 "bitmap.ml" 17 886 906
+type(
+  bool
+)
+"bitmap.ml" 17 886 898 "bitmap.ml" 17 886 906
+type(
+  bool ref
+)
+"bitmap.ml" 18 909 913 "bitmap.ml" 18 909 919
+type(
+  bytes -> unit
+)
+ident(
+  def debugs "bitmap.ml" 20 958 958 "bitmap.ml" 1 0 -1
+)
+"bitmap.ml" 18 909 920 "bitmap.ml" 18 909 921
+type(
+  bytes
+)
+ident(
+  def s "bitmap.ml" 18 909 924 "bitmap.ml" 18 909 954
+)
+"bitmap.ml" 18 909 928 "bitmap.ml" 18 909 933
+type(
+  bool ref
+)
+ident(
+  int_ref debug "bitmap.ml" 17 886 890 "bitmap.ml" 17 886 895
+)
+"bitmap.ml" 18 909 927 "bitmap.ml" 18 909 933
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bitmap.ml" 18 909 939 "bitmap.ml" 18 909 952
+type(
+  bytes -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"bitmap.ml" 18 909 953 "bitmap.ml" 18 909 954
+type(
+  bytes
+)
+ident(
+  int_ref s "bitmap.ml" 18 909 920 "bitmap.ml" 18 909 921
+)
+"bitmap.ml" 18 909 939 "bitmap.ml" 18 909 954
+type(
+  unit
+)
+"bitmap.ml" 18 909 924 "bitmap.ml" 18 909 954
+type(
+  unit
+)
+type(
+  unit
+)
+"bitmap.ml" 18 909 920 "bitmap.ml" 18 909 954
+type(
+  bytes -> unit
+)
+"bitmap.ml" 20 958 962 "bitmap.ml" 20 958 974
+type(
+  int ref
+)
+ident(
+  def maximum_live "bitmap.ml" 21 1019 1019 "bitmap.ml" 1 0 -1
+)
+"bitmap.ml" 20 958 977 "bitmap.ml" 20 958 980
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"bitmap.ml" 20 958 981 "bitmap.ml" 20 958 982
+type(
+  int
+)
+"bitmap.ml" 20 958 977 "bitmap.ml" 20 958 982
+type(
+  int ref
+)
+"bitmap.ml" 21 1019 1023 "bitmap.ml" 21 1019 1041
+type(
+  int ref
+)
+ident(
+  def maximum_block_size "bitmap.ml" 24 1139 1139 "bitmap.ml" 1 0 -1
+)
+"bitmap.ml" 21 1019 1044 "bitmap.ml" 21 1019 1047
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"bitmap.ml" 21 1019 1050 "bitmap.ml" 21 1019 1062
+type(
+  int ref
+)
+ident(
+  int_ref maximum_live "bitmap.ml" 20 958 962 "bitmap.ml" 20 958 974
+)
+"bitmap.ml" 21 1019 1049 "bitmap.ml" 21 1019 1062
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bitmap.ml" 21 1019 1063 "bitmap.ml" 21 1019 1064
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"bitmap.ml" 21 1019 1065 "bitmap.ml" 21 1019 1067
+type(
+  int
+)
+"bitmap.ml" 21 1019 1049 "bitmap.ml" 21 1019 1067
+type(
+  int
+)
+"bitmap.ml" 21 1019 1044 "bitmap.ml" 21 1019 1068
+type(
+  int ref
+)
+"bitmap.ml" 38 1390 1394 "bitmap.ml" 38 1390 1410
+type(
+  block list ref
+)
+ident(
+  def swappable_blocks "bitmap.ml" 41 1450 1450 "bitmap.ml" 1 0 -1
+)
+"bitmap.ml" 38 1390 1413 "bitmap.ml" 38 1390 1416
+type(
+  block list -> block list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"bitmap.ml" 38 1390 1417 "bitmap.ml" 38 1390 1419
+type(
+  block list
+)
+"bitmap.ml" 38 1390 1413 "bitmap.ml" 38 1390 1419
+type(
+  block list ref
+)
+"bitmap.ml" 41 1450 1454 "bitmap.ml" 41 1450 1467
+type(
+  int -> bytes
+)
+ident(
+  def string_create "bitmap.ml" 44 1543 1543 "bitmap.ml" 1 0 -1
+)
+"bitmap.ml" 41 1450 1468 "bitmap.ml" 41 1450 1469
+type(
+  int
+)
+ident(
+  def s "bitmap.ml" 42 1472 1474 "bitmap.ml" 42 1472 1539
+)
+"bitmap.ml" 42 1472 1478 "bitmap.ml" 42 1472 1490
+type(
+  int -> bytes
+)
+ident(
+  ext_ref Bytes.create
+)
+"bitmap.ml" 42 1472 1491 "bitmap.ml" 42 1472 1492
+type(
+  int
+)
+ident(
+  int_ref s "bitmap.ml" 41 1450 1468 "bitmap.ml" 41 1450 1469
+)
+"bitmap.ml" 42 1472 1478 "bitmap.ml" 42 1472 1492
+type(
+  bytes
+)
+"bitmap.ml" 42 1472 1515 "bitmap.ml" 42 1472 1516
+type(
+  bytes
+)
+"bitmap.ml" 42 1472 1498 "bitmap.ml" 42 1472 1516
+type(
+  exn
+)
+"bitmap.ml" 42 1472 1520 "bitmap.ml" 42 1472 1525
+type(
+  exn -> bytes
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"bitmap.ml" 42 1472 1526 "bitmap.ml" 42 1472 1539
+type(
+  exn
+)
+"bitmap.ml" 42 1472 1520 "bitmap.ml" 42 1472 1539
+type(
+  bytes
+)
+"bitmap.ml" 42 1472 1474 "bitmap.ml" 42 1472 1539
+type(
+  bytes
+)
+"bitmap.ml" 41 1450 1468 "bitmap.ml" 42 1472 1539
+type(
+  int -> bytes
+)
+"bitmap.ml" 79 2338 2344 "bitmap.ml" 79 2338 2351
+type(
+  'a -> unit
+)
+ident(
+  def destroy "bitmap.ml" 81 2383 2385 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 79 2338 2352 "bitmap.ml" 79 2338 2354
+type(
+  'a
+)
+ident(
+  def _t "bitmap.ml" 79 2338 2357 "bitmap.ml" 79 2338 2359
+)
+"bitmap.ml" 79 2338 2357 "bitmap.ml" 79 2338 2359
+type(
+  unit
+)
+"bitmap.ml" 79 2338 2352 "bitmap.ml" 79 2338 2359
+type(
+  'a -> unit
+)
+"bitmap.ml" 81 2383 2389 "bitmap.ml" 81 2383 2402
+type(
+  block -> unit
+)
+ident(
+  def destroy_block "bitmap.ml" 97 2851 2853 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 81 2383 2403 "bitmap.ml" 81 2383 2406
+type(
+  block
+)
+ident(
+  def blk "bitmap.ml" 82 2409 2413 "bitmap.ml" 95 2819 2847
+)
+"bitmap.ml" 82 2409 2416 "bitmap.ml" 82 2409 2419
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 81 2383 2403 "bitmap.ml" 81 2383 2406
+)
+"bitmap.ml" 82 2409 2416 "bitmap.ml" 82 2409 2430
+type(
+  block_data
+)
+"bitmap.ml" 82 2409 2431 "bitmap.ml" 82 2409 2432
+type(
+  block_data -> block_data -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"bitmap.ml" 82 2409 2433 "bitmap.ml" 82 2409 2442
+type(
+  block_data
+)
+"bitmap.ml" 82 2409 2416 "bitmap.ml" 82 2409 2442
+type(
+  bool
+)
+"bitmap.ml" 82 2409 2448 "bitmap.ml" 82 2409 2450
+type(
+  unit
+)
+"bitmap.ml" 83 2462 2474 "bitmap.ml" 83 2462 2477
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 81 2383 2403 "bitmap.ml" 81 2383 2406
+)
+"bitmap.ml" 83 2462 2474 "bitmap.ml" 83 2462 2482
+type(
+  bytes option
+)
+"bitmap.ml" 84 2488 2501 "bitmap.ml" 84 2488 2506
+type(
+  bytes
+)
+ident(
+  def fname "bitmap.ml" 85 2510 2526 "bitmap.ml" 87 2621 2661
+)
+"bitmap.ml" 84 2488 2496 "bitmap.ml" 84 2488 2506
+type(
+  bytes option
+)
+"bitmap.ml" 85 2510 2532 "bitmap.ml" 85 2510 2535
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 81 2383 2403 "bitmap.ml" 81 2383 2406
+)
+"bitmap.ml" 85 2510 2532 "bitmap.ml" 85 2510 2546
+type(
+  block_data
+)
+"bitmap.ml" 86 2552 2564 "bitmap.ml" 86 2552 2571
+type(
+  block_data
+)
+"bitmap.ml" 86 2552 2575 "bitmap.ml" 86 2552 2585
+type(
+  bytes -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"bitmap.ml" 86 2552 2586 "bitmap.ml" 86 2552 2591
+type(
+  bytes
+)
+ident(
+  int_ref fname "bitmap.ml" 84 2488 2501 "bitmap.ml" 84 2488 2506
+)
+"bitmap.ml" 86 2552 2575 "bitmap.ml" 86 2552 2591
+type(
+  unit
+)
+"bitmap.ml" 86 2552 2593 "bitmap.ml" 86 2552 2596
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 81 2383 2403 "bitmap.ml" 81 2383 2406
+)
+"bitmap.ml" 86 2552 2611 "bitmap.ml" 86 2552 2620
+type(
+  block_data
+)
+"bitmap.ml" 86 2552 2593 "bitmap.ml" 86 2552 2620
+type(
+  unit
+)
+"bitmap.ml" 86 2552 2575 "bitmap.ml" 86 2552 2620
+type(
+  unit
+)
+"bitmap.ml" 87 2621 2642 "bitmap.ml" 87 2621 2643
+type(
+  bytes
+)
+"bitmap.ml" 87 2621 2633 "bitmap.ml" 87 2621 2643
+type(
+  block_data
+)
+"bitmap.ml" 87 2621 2646 "bitmap.ml" 87 2621 2655
+type(
+  block_data
+)
+"bitmap.ml" 87 2621 2633 "bitmap.ml" 87 2621 2655
+type(
+  block_data
+)
+"bitmap.ml" 87 2621 2659 "bitmap.ml" 87 2621 2661
+type(
+  unit
+)
+"bitmap.ml" 85 2510 2526 "bitmap.ml" 87 2621 2661
+type(
+  unit
+)
+"bitmap.ml" 89 2670 2678 "bitmap.ml" 89 2670 2682
+type(
+  bytes option
+)
+"bitmap.ml" 89 2670 2686 "bitmap.ml" 89 2670 2688
+type(
+  unit
+)
+"bitmap.ml" 83 2462 2468 "bitmap.ml" 89 2670 2688
+type(
+  unit
+)
+"bitmap.ml" 82 2409 2413 "bitmap.ml" 90 2689 2696
+type(
+  unit
+)
+"bitmap.ml" 91 2698 2702 "bitmap.ml" 91 2698 2718
+type(
+  block list ref
+)
+ident(
+  int_ref swappable_blocks "bitmap.ml" 38 1390 1394 "bitmap.ml" 38 1390 1410
+)
+"bitmap.ml" 92 2722 2728 "bitmap.ml" 92 2722 2743
+type(
+  (block -> block list -> block list) ->
+  block list -> block list -> block list
+)
+ident(
+  ext_ref List.fold_right
+)
+"bitmap.ml" 93 2744 2757 "bitmap.ml" 93 2744 2761
+type(
+  block
+)
+ident(
+  def blk' "bitmap.ml" 93 2744 2762 "bitmap.ml" 94 2768 2817
+)
+"bitmap.ml" 93 2744 2762 "bitmap.ml" 93 2744 2764
+type(
+  block list
+)
+ident(
+  def st "bitmap.ml" 94 2768 2779 "bitmap.ml" 94 2768 2817
+)
+"bitmap.ml" 94 2768 2782 "bitmap.ml" 94 2768 2785
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 81 2383 2403 "bitmap.ml" 81 2383 2406
+)
+"bitmap.ml" 94 2768 2786 "bitmap.ml" 94 2768 2788
+type(
+  block -> block -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"bitmap.ml" 94 2768 2789 "bitmap.ml" 94 2768 2793
+type(
+  block
+)
+ident(
+  int_ref blk' "bitmap.ml" 93 2744 2757 "bitmap.ml" 93 2744 2761
+)
+"bitmap.ml" 94 2768 2782 "bitmap.ml" 94 2768 2793
+type(
+  bool
+)
+"bitmap.ml" 94 2768 2799 "bitmap.ml" 94 2768 2801
+type(
+  block list
+)
+ident(
+  int_ref st "bitmap.ml" 93 2744 2762 "bitmap.ml" 93 2744 2764
+)
+"bitmap.ml" 94 2768 2807 "bitmap.ml" 94 2768 2811
+type(
+  block
+)
+ident(
+  int_ref blk' "bitmap.ml" 93 2744 2757 "bitmap.ml" 93 2744 2761
+)
+"bitmap.ml" 94 2768 2815 "bitmap.ml" 94 2768 2817
+type(
+  block list
+)
+ident(
+  int_ref st "bitmap.ml" 93 2744 2762 "bitmap.ml" 93 2744 2764
+)
+"bitmap.ml" 94 2768 2807 "bitmap.ml" 94 2768 2817
+type(
+  block list
+)
+"bitmap.ml" 94 2768 2779 "bitmap.ml" 94 2768 2817
+type(
+  block list
+)
+"bitmap.ml" 93 2744 2762 "bitmap.ml" 94 2768 2817
+type(
+  block list -> block list
+)
+"bitmap.ml" 93 2744 2757 "bitmap.ml" 94 2768 2817
+type(
+  block -> block list -> block list
+)
+"bitmap.ml" 95 2819 2828 "bitmap.ml" 95 2819 2844
+type(
+  block list ref
+)
+ident(
+  int_ref swappable_blocks "bitmap.ml" 38 1390 1394 "bitmap.ml" 38 1390 1410
+)
+"bitmap.ml" 95 2819 2827 "bitmap.ml" 95 2819 2844
+type(
+  block list
+)
+type(
+  block list ref -> block list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bitmap.ml" 95 2819 2845 "bitmap.ml" 95 2819 2847
+type(
+  block list
+)
+"bitmap.ml" 92 2722 2728 "bitmap.ml" 95 2819 2847
+type(
+  block list
+)
+"bitmap.ml" 91 2698 2702 "bitmap.ml" 95 2819 2847
+type(
+  unit
+)
+type(
+  block list ref -> block list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"bitmap.ml" 82 2409 2413 "bitmap.ml" 95 2819 2847
+type(
+  unit
+)
+"bitmap.ml" 81 2383 2403 "bitmap.ml" 95 2819 2847
+type(
+  block -> unit
+)
+"bitmap.ml" 97 2851 2857 "bitmap.ml" 97 2851 2868
+type(
+  bytes -> bytes -> unit
+)
+ident(
+  def fill_string "bitmap.ml" 113 3361 3363 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 97 2851 2869 "bitmap.ml" 97 2851 2872
+type(
+  bytes
+)
+ident(
+  def buf "bitmap.ml" 97 2851 2873 "bitmap.ml" 111 3348 3357
+)
+"bitmap.ml" 97 2851 2873 "bitmap.ml" 97 2851 2877
+type(
+  bytes
+)
+ident(
+  def init "bitmap.ml" 99 2932 2936 "bitmap.ml" 111 3348 3357
+)
+"bitmap.ml" 99 2932 2940 "bitmap.ml" 99 2932 2950
+type(
+  int
+)
+ident(
+  def fulllength "bitmap.ml" 100 2974 2978 "bitmap.ml" 111 3348 3357
+)
+"bitmap.ml" 99 2932 2953 "bitmap.ml" 99 2932 2966
+type(
+  bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"bitmap.ml" 99 2932 2967 "bitmap.ml" 99 2932 2970
+type(
+  bytes
+)
+ident(
+  int_ref buf "bitmap.ml" 97 2851 2869 "bitmap.ml" 97 2851 2872
+)
+"bitmap.ml" 99 2932 2953 "bitmap.ml" 99 2932 2970
+type(
+  int
+)
+"bitmap.ml" 100 2974 2982 "bitmap.ml" 100 2974 2992
+type(
+  int
+)
+ident(
+  def halflength "bitmap.ml" 101 3013 3017 "bitmap.ml" 111 3348 3357
+)
+"bitmap.ml" 100 2974 2995 "bitmap.ml" 100 2974 3005
+type(
+  int
+)
+ident(
+  int_ref fulllength "bitmap.ml" 99 2932 2940 "bitmap.ml" 99 2932 2950
+)
+"bitmap.ml" 100 2974 3006 "bitmap.ml" 100 2974 3007
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"bitmap.ml" 100 2974 3008 "bitmap.ml" 100 2974 3009
+type(
+  int
+)
+"bitmap.ml" 100 2974 2995 "bitmap.ml" 100 2974 3009
+type(
+  int
+)
+"bitmap.ml" 101 3013 3025 "bitmap.ml" 101 3013 3028
+type(
+  int -> unit
+)
+ident(
+  def sub "bitmap.ml" 101 3013 3017 "bitmap.ml" 111 3348 3357
+)
+"bitmap.ml" 102 3040 3048 "bitmap.ml" 102 3040 3049
+type(
+  int
+)
+"bitmap.ml" 103 3053 3065 "bitmap.ml" 103 3053 3068
+type(
+  int
+)
+ident(
+  def len "bitmap.ml" 104 3093 3101 "bitmap.ml" 105 3138 3153
+)
+"bitmap.ml" 103 3053 3071 "bitmap.ml" 103 3053 3084
+type(
+  bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"bitmap.ml" 103 3053 3085 "bitmap.ml" 103 3053 3089
+type(
+  bytes
+)
+ident(
+  int_ref init "bitmap.ml" 97 2851 2873 "bitmap.ml" 97 2851 2877
+)
+"bitmap.ml" 103 3053 3071 "bitmap.ml" 103 3053 3089
+type(
+  int
+)
+"bitmap.ml" 104 3093 3101 "bitmap.ml" 104 3093 3119
+type(
+  bytes -> int -> bytes -> int -> int -> unit
+)
+ident(
+  ext_ref String.unsafe_blit
+)
+"bitmap.ml" 104 3093 3120 "bitmap.ml" 104 3093 3124
+type(
+  bytes
+)
+ident(
+  int_ref init "bitmap.ml" 97 2851 2873 "bitmap.ml" 97 2851 2877
+)
+"bitmap.ml" 104 3093 3125 "bitmap.ml" 104 3093 3126
+type(
+  int
+)
+"bitmap.ml" 104 3093 3127 "bitmap.ml" 104 3093 3130
+type(
+  bytes
+)
+ident(
+  int_ref buf "bitmap.ml" 97 2851 2869 "bitmap.ml" 97 2851 2872
+)
+"bitmap.ml" 104 3093 3131 "bitmap.ml" 104 3093 3132
+type(
+  int
+)
+"bitmap.ml" 104 3093 3133 "bitmap.ml" 104 3093 3136
+type(
+  int
+)
+ident(
+  int_ref len "bitmap.ml" 103 3053 3065 "bitmap.ml" 103 3053 3068
+)
+"bitmap.ml" 104 3093 3101 "bitmap.ml" 104 3093 3136
+type(
+  unit
+)
+"bitmap.ml" 105 3138 3146 "bitmap.ml" 105 3138 3149
+type(
+  int -> unit
+)
+ident(
+  int_ref sub "bitmap.ml" 101 3013 3025 "bitmap.ml" 101 3013 3028
+)
+"bitmap.ml" 105 3138 3150 "bitmap.ml" 105 3138 3153
+type(
+  int
+)
+ident(
+  int_ref len "bitmap.ml" 103 3053 3065 "bitmap.ml" 103 3053 3068
+)
+"bitmap.ml" 105 3138 3146 "bitmap.ml" 105 3138 3153
+type(
+  unit
+)
+"bitmap.ml" 104 3093 3101 "bitmap.ml" 105 3138 3153
+type(
+  unit
+)
+"bitmap.ml" 103 3053 3061 "bitmap.ml" 105 3138 3153
+type(
+  unit
+)
+"bitmap.ml" 106 3154 3162 "bitmap.ml" 106 3154 3163
+type(
+  int
+)
+ident(
+  def x "bitmap.ml" 106 3154 3169 "bitmap.ml" 108 3230 3249
+)
+"bitmap.ml" 106 3154 3169 "bitmap.ml" 106 3154 3170
+type(
+  int
+)
+ident(
+  int_ref x "bitmap.ml" 106 3154 3162 "bitmap.ml" 106 3154 3163
+)
+"bitmap.ml" 106 3154 3171 "bitmap.ml" 106 3154 3173
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"bitmap.ml" 106 3154 3174 "bitmap.ml" 106 3154 3184
+type(
+  int
+)
+ident(
+  int_ref halflength "bitmap.ml" 100 2974 2982 "bitmap.ml" 100 2974 2992
+)
+"bitmap.ml" 106 3154 3169 "bitmap.ml" 106 3154 3184
+type(
+  bool
+)
+"bitmap.ml" 107 3188 3196 "bitmap.ml" 107 3188 3214
+type(
+  bytes -> int -> bytes -> int -> int -> unit
+)
+ident(
+  ext_ref String.unsafe_blit
+)
+"bitmap.ml" 107 3188 3215 "bitmap.ml" 107 3188 3218
+type(
+  bytes
+)
+ident(
+  int_ref buf "bitmap.ml" 97 2851 2869 "bitmap.ml" 97 2851 2872
+)
+"bitmap.ml" 107 3188 3219 "bitmap.ml" 107 3188 3220
+type(
+  int
+)
+"bitmap.ml" 107 3188 3221 "bitmap.ml" 107 3188 3224
+type(
+  bytes
+)
+ident(
+  int_ref buf "bitmap.ml" 97 2851 2869 "bitmap.ml" 97 2851 2872
+)
+"bitmap.ml" 107 3188 3225 "bitmap.ml" 107 3188 3226
+type(
+  int
+)
+ident(
+  int_ref x "bitmap.ml" 106 3154 3162 "bitmap.ml" 106 3154 3163
+)
+"bitmap.ml" 107 3188 3227 "bitmap.ml" 107 3188 3228
+type(
+  int
+)
+ident(
+  int_ref x "bitmap.ml" 106 3154 3162 "bitmap.ml" 106 3154 3163
+)
+"bitmap.ml" 107 3188 3196 "bitmap.ml" 107 3188 3228
+type(
+  unit
+)
+"bitmap.ml" 108 3230 3238 "bitmap.ml" 108 3230 3241
+type(
+  int -> unit
+)
+ident(
+  int_ref sub "bitmap.ml" 101 3013 3025 "bitmap.ml" 101 3013 3028
+)
+"bitmap.ml" 108 3230 3243 "bitmap.ml" 108 3230 3244
+type(
+  int
+)
+ident(
+  int_ref x "bitmap.ml" 106 3154 3162 "bitmap.ml" 106 3154 3163
+)
+"bitmap.ml" 108 3230 3245 "bitmap.ml" 108 3230 3246
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 108 3230 3247 "bitmap.ml" 108 3230 3248
+type(
+  int
+)
+"bitmap.ml" 108 3230 3243 "bitmap.ml" 108 3230 3248
+type(
+  int
+)
+"bitmap.ml" 108 3230 3238 "bitmap.ml" 108 3230 3249
+type(
+  unit
+)
+"bitmap.ml" 107 3188 3196 "bitmap.ml" 108 3230 3249
+type(
+  unit
+)
+"bitmap.ml" 109 3250 3258 "bitmap.ml" 109 3250 3259
+type(
+  int
+)
+ident(
+  def x "bitmap.ml" 110 3289 3297 "bitmap.ml" 110 3289 3344
+)
+"bitmap.ml" 110 3289 3297 "bitmap.ml" 110 3289 3315
+type(
+  bytes -> int -> bytes -> int -> int -> unit
+)
+ident(
+  ext_ref String.unsafe_blit
+)
+"bitmap.ml" 110 3289 3316 "bitmap.ml" 110 3289 3319
+type(
+  bytes
+)
+ident(
+  int_ref buf "bitmap.ml" 97 2851 2869 "bitmap.ml" 97 2851 2872
+)
+"bitmap.ml" 110 3289 3320 "bitmap.ml" 110 3289 3321
+type(
+  int
+)
+"bitmap.ml" 110 3289 3322 "bitmap.ml" 110 3289 3325
+type(
+  bytes
+)
+ident(
+  int_ref buf "bitmap.ml" 97 2851 2869 "bitmap.ml" 97 2851 2872
+)
+"bitmap.ml" 110 3289 3326 "bitmap.ml" 110 3289 3327
+type(
+  int
+)
+ident(
+  int_ref x "bitmap.ml" 109 3250 3258 "bitmap.ml" 109 3250 3259
+)
+"bitmap.ml" 110 3289 3329 "bitmap.ml" 110 3289 3339
+type(
+  int
+)
+ident(
+  int_ref fulllength "bitmap.ml" 99 2932 2940 "bitmap.ml" 99 2932 2950
+)
+"bitmap.ml" 110 3289 3340 "bitmap.ml" 110 3289 3341
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"bitmap.ml" 110 3289 3342 "bitmap.ml" 110 3289 3343
+type(
+  int
+)
+ident(
+  int_ref x "bitmap.ml" 109 3250 3258 "bitmap.ml" 109 3250 3259
+)
+"bitmap.ml" 110 3289 3329 "bitmap.ml" 110 3289 3343
+type(
+  int
+)
+"bitmap.ml" 110 3289 3297 "bitmap.ml" 110 3289 3344
+type(
+  unit
+)
+"bitmap.ml" 101 3013 3031 "bitmap.ml" 110 3289 3344
+type(
+  int -> unit
+)
+"bitmap.ml" 111 3348 3352 "bitmap.ml" 111 3348 3355
+type(
+  int -> unit
+)
+ident(
+  int_ref sub "bitmap.ml" 101 3013 3025 "bitmap.ml" 101 3013 3028
+)
+"bitmap.ml" 111 3348 3356 "bitmap.ml" 111 3348 3357
+type(
+  int
+)
+"bitmap.ml" 111 3348 3352 "bitmap.ml" 111 3348 3357
+type(
+  unit
+)
+"bitmap.ml" 101 3013 3017 "bitmap.ml" 111 3348 3357
+type(
+  unit
+)
+"bitmap.ml" 100 2974 2978 "bitmap.ml" 111 3348 3357
+type(
+  unit
+)
+"bitmap.ml" 99 2932 2936 "bitmap.ml" 111 3348 3357
+type(
+  unit
+)
+"bitmap.ml" 97 2851 2873 "bitmap.ml" 111 3348 3357
+type(
+  bytes -> unit
+)
+"bitmap.ml" 97 2851 2869 "bitmap.ml" 111 3348 3357
+type(
+  bytes -> bytes -> unit
+)
+"bitmap.ml" 113 3361 3367 "bitmap.ml" 113 3361 3377
+type(
+  bytes option -> unit
+)
+ident(
+  def check_init "bitmap.ml" 120 3542 3544 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 113 3361 3378 "bitmap.ml" 113 3361 3382
+type(
+  bytes option
+)
+ident(
+  def init "bitmap.ml" 114 3385 3389 "bitmap.ml" 118 3522 3538
+)
+"bitmap.ml" 114 3385 3395 "bitmap.ml" 114 3385 3399
+type(
+  bytes option
+)
+ident(
+  int_ref init "bitmap.ml" 113 3361 3378 "bitmap.ml" 113 3361 3382
+)
+"bitmap.ml" 115 3405 3416 "bitmap.ml" 115 3405 3417
+type(
+  bytes
+)
+ident(
+  def v "bitmap.ml" 116 3421 3429 "bitmap.ml" 117 3467 3521
+)
+"bitmap.ml" 115 3405 3411 "bitmap.ml" 115 3405 3417
+type(
+  bytes option
+)
+"bitmap.ml" 116 3421 3432 "bitmap.ml" 116 3421 3445
+type(
+  bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"bitmap.ml" 116 3421 3446 "bitmap.ml" 116 3421 3447
+type(
+  bytes
+)
+ident(
+  int_ref v "bitmap.ml" 115 3405 3416 "bitmap.ml" 115 3405 3417
+)
+"bitmap.ml" 116 3421 3432 "bitmap.ml" 116 3421 3447
+type(
+  int
+)
+"bitmap.ml" 116 3421 3448 "bitmap.ml" 116 3421 3450
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"bitmap.ml" 116 3421 3451 "bitmap.ml" 116 3421 3466
+type(
+  int
+)
+ident(
+  int_ref B.bytes_per_pixel "bitmap.ml" 55 1694 1696 "bitmap.ml" 55 1694 1721
+)
+"bitmap.ml" 116 3421 3432 "bitmap.ml" 116 3421 3466
+type(
+  bool
+)
+"bitmap.ml" 117 3467 3480 "bitmap.ml" 117 3467 3488
+type(
+  bytes -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"bitmap.ml" 117 3467 3489 "bitmap.ml" 117 3467 3521
+type(
+  bytes
+)
+"bitmap.ml" 117 3467 3480 "bitmap.ml" 117 3467 3521
+type(
+  unit
+)
+"bitmap.ml" 116 3421 3429 "bitmap.ml" 117 3467 3521
+type(
+  unit
+)
+type(
+  unit
+)
+"bitmap.ml" 118 3522 3528 "bitmap.ml" 118 3522 3532
+type(
+  bytes option
+)
+"bitmap.ml" 118 3522 3536 "bitmap.ml" 118 3522 3538
+type(
+  unit
+)
+"bitmap.ml" 114 3385 3389 "bitmap.ml" 118 3522 3538
+type(
+  unit
+)
+"bitmap.ml" 113 3361 3378 "bitmap.ml" 118 3522 3538
+type(
+  bytes option -> unit
+)
+"bitmap.ml" 120 3542 3548 "bitmap.ml" 120 3542 3554
+type(
+  int -> int -> bytes option -> t
+)
+ident(
+  def memory "bitmap.ml" 172 5007 5009 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 120 3542 3555 "bitmap.ml" 120 3542 3560
+type(
+  int
+)
+ident(
+  def width "bitmap.ml" 120 3542 3561 "bitmap.ml" 169 4991 4996
+)
+"bitmap.ml" 120 3542 3561 "bitmap.ml" 120 3542 3567
+type(
+  int
+)
+ident(
+  def height "bitmap.ml" 120 3542 3568 "bitmap.ml" 169 4991 4996
+)
+"bitmap.ml" 120 3542 3568 "bitmap.ml" 120 3542 3572
+type(
+  bytes option
+)
+ident(
+  def init "bitmap.ml" 123 3617 3621 "bitmap.ml" 169 4991 4996
+)
+"bitmap.ml" 123 3617 3621 "bitmap.ml" 123 3617 3631
+type(
+  bytes option -> unit
+)
+ident(
+  int_ref check_init "bitmap.ml" 113 3361 3367 "bitmap.ml" 113 3361 3377
+)
+"bitmap.ml" 123 3617 3632 "bitmap.ml" 123 3617 3636
+type(
+  bytes option
+)
+ident(
+  int_ref init "bitmap.ml" 120 3542 3568 "bitmap.ml" 120 3542 3572
+)
+"bitmap.ml" 123 3617 3621 "bitmap.ml" 123 3617 3636
+type(
+  unit
+)
+"bitmap.ml" 126 3698 3706 "bitmap.ml" 126 3698 3711
+type(
+  int
+)
+ident(
+  def hsize "bitmap.ml" 128 3773 3777 "bitmap.ml" 169 4991 4996
+)
+"bitmap.ml" 126 3698 3714 "bitmap.ml" 126 3698 3735
+type(
+  int
+)
+ident(
+  ext_ref Sys.max_string_length
+)
+"bitmap.ml" 126 3698 3736 "bitmap.ml" 126 3698 3737
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"bitmap.ml" 126 3698 3739 "bitmap.ml" 126 3698 3744
+type(
+  int
+)
+ident(
+  int_ref width "bitmap.ml" 120 3542 3555 "bitmap.ml" 120 3542 3560
+)
+"bitmap.ml" 126 3698 3745 "bitmap.ml" 126 3698 3746
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 126 3698 3747 "bitmap.ml" 126 3698 3762
+type(
+  int
+)
+ident(
+  int_ref B.bytes_per_pixel "bitmap.ml" 55 1694 1696 "bitmap.ml" 55 1694 1721
+)
+"bitmap.ml" 126 3698 3739 "bitmap.ml" 126 3698 3762
+type(
+  int
+)
+"bitmap.ml" 126 3698 3714 "bitmap.ml" 126 3698 3763
+type(
+  int
+)
+"bitmap.ml" 128 3773 3781 "bitmap.ml" 128 3773 3786
+type(
+  int
+)
+ident(
+  def hsize "bitmap.ml" 131 3852 3856 "bitmap.ml" 169 4991 4996
+)
+"bitmap.ml" 128 3773 3789 "bitmap.ml" 128 3773 3792
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"bitmap.ml" 128 3773 3793 "bitmap.ml" 128 3773 3799
+type(
+  int
+)
+ident(
+  int_ref height "bitmap.ml" 120 3542 3561 "bitmap.ml" 120 3542 3567
+)
+"bitmap.ml" 128 3773 3800 "bitmap.ml" 128 3773 3805
+type(
+  int
+)
+ident(
+  int_ref hsize "bitmap.ml" 126 3698 3706 "bitmap.ml" 126 3698 3711
+)
+"bitmap.ml" 128 3773 3789 "bitmap.ml" 128 3773 3805
+type(
+  int
+)
+"bitmap.ml" 131 3852 3860 "bitmap.ml" 131 3852 3868
+type(
+  int
+)
+ident(
+  def blocks_y "bitmap.ml" 132 3899 3903 "bitmap.ml" 169 4991 4996
+)
+"bitmap.ml" 131 3852 3872 "bitmap.ml" 131 3852 3878
+type(
+  int
+)
+ident(
+  int_ref height "bitmap.ml" 120 3542 3561 "bitmap.ml" 120 3542 3567
+)
+"bitmap.ml" 131 3852 3879 "bitmap.ml" 131 3852 3880
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"bitmap.ml" 131 3852 3881 "bitmap.ml" 131 3852 3882
+type(
+  int
+)
+"bitmap.ml" 131 3852 3872 "bitmap.ml" 131 3852 3882
+type(
+  int
+)
+"bitmap.ml" 131 3852 3884 "bitmap.ml" 131 3852 3885
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"bitmap.ml" 131 3852 3886 "bitmap.ml" 131 3852 3891
+type(
+  int
+)
+ident(
+  int_ref hsize "bitmap.ml" 128 3773 3781 "bitmap.ml" 128 3773 3786
+)
+"bitmap.ml" 131 3852 3871 "bitmap.ml" 131 3852 3891
+type(
+  int
+)
+"bitmap.ml" 131 3852 3892 "bitmap.ml" 131 3852 3893
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"bitmap.ml" 131 3852 3894 "bitmap.ml" 131 3852 3895
+type(
+  int
+)
+"bitmap.ml" 131 3852 3871 "bitmap.ml" 131 3852 3895
+type(
+  int
+)
+"bitmap.ml" 132 3899 3907 "bitmap.ml" 132 3899 3923
+type(
+  (bytes * int * int) array
+)
+ident(
+  def buf_size_heights "bitmap.ml" 144 4217 4221 "bitmap.ml" 169 4991 4996
+)
+"bitmap.ml" 133 3926 3932 "bitmap.ml" 133 3926 3942
+type(
+  int -> (int -> bytes * int * int) -> (bytes * int * int) array
+)
+ident(
+  ext_ref Array.init
+)
+"bitmap.ml" 133 3926 3943 "bitmap.ml" 133 3926 3951
+type(
+  int
+)
+ident(
+  int_ref blocks_y "bitmap.ml" 131 3852 3860 "bitmap.ml" 131 3852 3868
+)
+"bitmap.ml" 133 3926 3957 "bitmap.ml" 133 3926 3959
+type(
+  int
+)
+ident(
+  def by "bitmap.ml" 134 3964 3965 "bitmap.ml" 142 4175 4208
+)
+"bitmap.ml" 134 3964 3969 "bitmap.ml" 134 3964 3975
+type(
+  int
+)
+ident(
+  def height "bitmap.ml" 141 4126 4128 "bitmap.ml" 142 4175 4208
+)
+"bitmap.ml" 135 3979 3985 "bitmap.ml" 135 3979 3987
+type(
+  int
+)
+ident(
+  int_ref by "bitmap.ml" 133 3926 3957 "bitmap.ml" 133 3926 3959
+)
+"bitmap.ml" 135 3979 3988 "bitmap.ml" 135 3979 3989
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"bitmap.ml" 135 3979 3990 "bitmap.ml" 135 3979 3998
+type(
+  int
+)
+ident(
+  int_ref blocks_y "bitmap.ml" 131 3852 3860 "bitmap.ml" 131 3852 3868
+)
+"bitmap.ml" 135 3979 3999 "bitmap.ml" 135 3979 4000
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"bitmap.ml" 135 3979 4001 "bitmap.ml" 135 3979 4002
+type(
+  int
+)
+"bitmap.ml" 135 3979 3990 "bitmap.ml" 135 3979 4002
+type(
+  int
+)
+"bitmap.ml" 135 3979 3985 "bitmap.ml" 135 3979 4002
+type(
+  bool
+)
+"bitmap.ml" 136 4009 4018 "bitmap.ml" 136 4009 4019
+type(
+  int
+)
+ident(
+  def m "bitmap.ml" 137 4042 4047 "bitmap.ml" 137 4042 4073
+)
+"bitmap.ml" 136 4009 4022 "bitmap.ml" 136 4009 4028
+type(
+  int
+)
+ident(
+  int_ref height "bitmap.ml" 120 3542 3561 "bitmap.ml" 120 3542 3567
+)
+"bitmap.ml" 136 4009 4033 "bitmap.ml" 136 4009 4038
+type(
+  int
+)
+ident(
+  int_ref hsize "bitmap.ml" 128 3773 3781 "bitmap.ml" 128 3773 3786
+)
+"bitmap.ml" 136 4009 4022 "bitmap.ml" 136 4009 4038
+type(
+  int
+)
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"bitmap.ml" 137 4042 4050 "bitmap.ml" 137 4042 4051
+type(
+  int
+)
+ident(
+  int_ref m "bitmap.ml" 136 4009 4018 "bitmap.ml" 136 4009 4019
+)
+"bitmap.ml" 137 4042 4052 "bitmap.ml" 137 4042 4053
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"bitmap.ml" 137 4042 4054 "bitmap.ml" 137 4042 4055
+type(
+  int
+)
+"bitmap.ml" 137 4042 4050 "bitmap.ml" 137 4042 4055
+type(
+  bool
+)
+"bitmap.ml" 137 4042 4061 "bitmap.ml" 137 4042 4066
+type(
+  int
+)
+ident(
+  int_ref hsize "bitmap.ml" 128 3773 3781 "bitmap.ml" 128 3773 3786
+)
+"bitmap.ml" 137 4042 4072 "bitmap.ml" 137 4042 4073
+type(
+  int
+)
+ident(
+  int_ref m "bitmap.ml" 136 4009 4018 "bitmap.ml" 136 4009 4019
+)
+"bitmap.ml" 137 4042 4047 "bitmap.ml" 137 4042 4073
+type(
+  int
+)
+"bitmap.ml" 136 4009 4014 "bitmap.ml" 137 4042 4073
+type(
+  int
+)
+"bitmap.ml" 138 4074 4082 "bitmap.ml" 138 4074 4087
+type(
+  int
+)
+ident(
+  int_ref hsize "bitmap.ml" 128 3773 3781 "bitmap.ml" 128 3773 3786
+)
+"bitmap.ml" 135 3979 3982 "bitmap.ml" 138 4074 4087
+type(
+  int
+)
+"bitmap.ml" 141 4126 4132 "bitmap.ml" 141 4126 4136
+type(
+  int
+)
+ident(
+  def size "bitmap.ml" 142 4175 4176 "bitmap.ml" 142 4175 4208
+)
+"bitmap.ml" 141 4126 4139 "bitmap.ml" 141 4126 4144
+type(
+  int
+)
+ident(
+  int_ref width "bitmap.ml" 120 3542 3555 "bitmap.ml" 120 3542 3560
+)
+"bitmap.ml" 141 4126 4145 "bitmap.ml" 141 4126 4146
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 141 4126 4147 "bitmap.ml" 141 4126 4153
+type(
+  int
+)
+ident(
+  int_ref height "bitmap.ml" 134 3964 3969 "bitmap.ml" 134 3964 3975
+)
+"bitmap.ml" 141 4126 4139 "bitmap.ml" 141 4126 4153
+type(
+  int
+)
+"bitmap.ml" 141 4126 4154 "bitmap.ml" 141 4126 4155
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 141 4126 4156 "bitmap.ml" 141 4126 4171
+type(
+  int
+)
+ident(
+  int_ref B.bytes_per_pixel "bitmap.ml" 55 1694 1696 "bitmap.ml" 55 1694 1721
+)
+"bitmap.ml" 141 4126 4139 "bitmap.ml" 141 4126 4171
+type(
+  int
+)
+"bitmap.ml" 142 4175 4176 "bitmap.ml" 142 4175 4189
+type(
+  int -> bytes
+)
+ident(
+  int_ref string_create "bitmap.ml" 41 1450 1454 "bitmap.ml" 41 1450 1467
+)
+"bitmap.ml" 142 4175 4190 "bitmap.ml" 142 4175 4194
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 141 4126 4132 "bitmap.ml" 141 4126 4136
+)
+"bitmap.ml" 142 4175 4176 "bitmap.ml" 142 4175 4194
+type(
+  bytes
+)
+"bitmap.ml" 142 4175 4196 "bitmap.ml" 142 4175 4200
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 141 4126 4132 "bitmap.ml" 141 4126 4136
+)
+"bitmap.ml" 142 4175 4202 "bitmap.ml" 142 4175 4208
+type(
+  int
+)
+ident(
+  int_ref height "bitmap.ml" 134 3964 3969 "bitmap.ml" 134 3964 3975
+)
+"bitmap.ml" 142 4175 4176 "bitmap.ml" 142 4175 4208
+type(
+  bytes * int * int
+)
+"bitmap.ml" 141 4126 4128 "bitmap.ml" 142 4175 4208
+type(
+  bytes * int * int
+)
+"bitmap.ml" 134 3964 3965 "bitmap.ml" 142 4175 4208
+type(
+  bytes * int * int
+)
+"bitmap.ml" 133 3926 3957 "bitmap.ml" 142 4175 4208
+type(
+  int -> bytes * int * int
+)
+"bitmap.ml" 133 3926 3932 "bitmap.ml" 142 4175 4209
+type(
+  (bytes * int * int) array
+)
+"bitmap.ml" 144 4217 4225 "bitmap.ml" 144 4217 4229
+type(
+  bytes array
+)
+ident(
+  def bufs "bitmap.ml" 145 4287 4297 "bitmap.ml" 169 4991 4996
+)
+"bitmap.ml" 144 4217 4232 "bitmap.ml" 144 4217 4241
+type(
+  (bytes * int * int -> bytes) -> (bytes * int * int) array -> bytes array
+)
+ident(
+  ext_ref Array.map
+)
+"bitmap.ml" 144 4217 4248 "bitmap.ml" 144 4217 4251
+type(
+  bytes
+)
+ident(
+  def buf "bitmap.ml" 144 4217 4262 "bitmap.ml" 144 4217 4265
+)
+"bitmap.ml" 144 4217 4253 "bitmap.ml" 144 4217 4254
+type(
+  int
+)
+"bitmap.ml" 144 4217 4256 "bitmap.ml" 144 4217 4257
+type(
+  int
+)
+"bitmap.ml" 144 4217 4248 "bitmap.ml" 144 4217 4257
+type(
+  bytes * int * int
+)
+"bitmap.ml" 144 4217 4262 "bitmap.ml" 144 4217 4265
+type(
+  bytes
+)
+ident(
+  int_ref buf "bitmap.ml" 144 4217 4248 "bitmap.ml" 144 4217 4251
+)
+"bitmap.ml" 144 4217 4247 "bitmap.ml" 144 4217 4265
+type(
+  bytes * int * int -> bytes
+)
+"bitmap.ml" 144 4217 4267 "bitmap.ml" 144 4217 4283
+type(
+  (bytes * int * int) array
+)
+ident(
+  int_ref buf_size_heights "bitmap.ml" 132 3899 3907 "bitmap.ml" 132 3899 3923
+)
+"bitmap.ml" 144 4217 4232 "bitmap.ml" 144 4217 4283
+type(
+  bytes array
+)
+"bitmap.ml" 145 4287 4303 "bitmap.ml" 145 4287 4307
+type(
+  bytes option
+)
+ident(
+  int_ref init "bitmap.ml" 120 3542 3568 "bitmap.ml" 120 3542 3572
+)
+"bitmap.ml" 146 4313 4324 "bitmap.ml" 146 4313 4325
+type(
+  bytes
+)
+ident(
+  def v "bitmap.ml" 146 4313 4329 "bitmap.ml" 146 4313 4371
+)
+"bitmap.ml" 146 4313 4319 "bitmap.ml" 146 4313 4325
+type(
+  bytes option
+)
+"bitmap.ml" 146 4313 4329 "bitmap.ml" 146 4313 4339
+type(
+  (bytes -> unit) -> bytes array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"bitmap.ml" 146 4313 4345 "bitmap.ml" 146 4313 4346
+type(
+  bytes
+)
+ident(
+  def s "bitmap.ml" 146 4313 4350 "bitmap.ml" 146 4313 4365
+)
+"bitmap.ml" 146 4313 4350 "bitmap.ml" 146 4313 4361
+type(
+  bytes -> bytes -> unit
+)
+ident(
+  int_ref fill_string "bitmap.ml" 97 2851 2857 "bitmap.ml" 97 2851 2868
+)
+"bitmap.ml" 146 4313 4362 "bitmap.ml" 146 4313 4363
+type(
+  bytes
+)
+ident(
+  int_ref s "bitmap.ml" 146 4313 4345 "bitmap.ml" 146 4313 4346
+)
+"bitmap.ml" 146 4313 4364 "bitmap.ml" 146 4313 4365
+type(
+  bytes
+)
+ident(
+  int_ref v "bitmap.ml" 146 4313 4324 "bitmap.ml" 146 4313 4325
+)
+"bitmap.ml" 146 4313 4350 "bitmap.ml" 146 4313 4365
+type(
+  unit
+)
+"bitmap.ml" 146 4313 4345 "bitmap.ml" 146 4313 4365
+type(
+  bytes -> unit
+)
+"bitmap.ml" 146 4313 4367 "bitmap.ml" 146 4313 4371
+type(
+  bytes array
+)
+ident(
+  int_ref bufs "bitmap.ml" 144 4217 4225 "bitmap.ml" 144 4217 4229
+)
+"bitmap.ml" 146 4313 4329 "bitmap.ml" 146 4313 4371
+type(
+  unit
+)
+"bitmap.ml" 147 4373 4379 "bitmap.ml" 147 4373 4383
+type(
+  bytes option
+)
+"bitmap.ml" 147 4373 4387 "bitmap.ml" 147 4373 4389
+type(
+  unit
+)
+"bitmap.ml" 145 4287 4297 "bitmap.ml" 147 4373 4389
+type(
+  unit
+)
+"bitmap.ml" 149 4399 4413 "bitmap.ml" 149 4399 4418
+type(
+  int
+)
+ident(
+  int_ref width "bitmap.ml" 120 3542 3555 "bitmap.ml" 120 3542 3560
+)
+"bitmap.ml" 150 4420 4435 "bitmap.ml" 150 4420 4441
+type(
+  int
+)
+ident(
+  int_ref height "bitmap.ml" 120 3542 3561 "bitmap.ml" 120 3542 3567
+)
+"bitmap.ml" 151 4443 4468 "bitmap.ml" 151 4443 4473
+type(
+  int
+)
+ident(
+  int_ref width "bitmap.ml" 120 3542 3555 "bitmap.ml" 120 3542 3560
+)
+"bitmap.ml" 152 4475 4501 "bitmap.ml" 152 4475 4506
+type(
+  int
+)
+ident(
+  int_ref hsize "bitmap.ml" 128 3773 3781 "bitmap.ml" 128 3773 3786
+)
+"bitmap.ml" 153 4508 4525 "bitmap.ml" 153 4508 4526
+type(
+  int
+)
+"bitmap.ml" 154 4528 4545 "bitmap.ml" 154 4528 4553
+type(
+  int
+)
+ident(
+  int_ref blocks_y "bitmap.ml" 131 3852 3860 "bitmap.ml" 131 3852 3868
+)
+"bitmap.ml" 155 4555 4571 "bitmap.ml" 155 4555 4581
+type(
+  int -> (int -> block) -> block array
+)
+ident(
+  ext_ref Array.init
+)
+"bitmap.ml" 155 4555 4582 "bitmap.ml" 155 4555 4590
+type(
+  int
+)
+ident(
+  int_ref blocks_y "bitmap.ml" 131 3852 3860 "bitmap.ml" 131 3852 3868
+)
+"bitmap.ml" 155 4555 4596 "bitmap.ml" 155 4555 4597
+type(
+  int
+)
+ident(
+  def h "bitmap.ml" 156 4602 4603 "bitmap.ml" 163 4789 4791
+)
+"bitmap.ml" 156 4602 4607 "bitmap.ml" 156 4602 4610
+type(
+  bytes
+)
+ident(
+  def buf "bitmap.ml" 157 4651 4652 "bitmap.ml" 163 4789 4791
+)
+"bitmap.ml" 156 4602 4612 "bitmap.ml" 156 4602 4616
+type(
+  int
+)
+ident(
+  def size "bitmap.ml" 157 4651 4652 "bitmap.ml" 163 4789 4791
+)
+"bitmap.ml" 156 4602 4618 "bitmap.ml" 156 4602 4624
+type(
+  int
+)
+ident(
+  def height "bitmap.ml" 157 4651 4652 "bitmap.ml" 163 4789 4791
+)
+"bitmap.ml" 156 4602 4607 "bitmap.ml" 156 4602 4624
+type(
+  bytes * int * int
+)
+"bitmap.ml" 156 4602 4627 "bitmap.ml" 156 4602 4643
+type(
+  (bytes * int * int) array
+)
+ident(
+  int_ref buf_size_heights "bitmap.ml" 132 3899 3907 "bitmap.ml" 132 3899 3923
+)
+"bitmap.ml" 156 4602 4645 "bitmap.ml" 156 4602 4646
+type(
+  int
+)
+ident(
+  int_ref h "bitmap.ml" 155 4555 4596 "bitmap.ml" 155 4555 4597
+)
+"bitmap.ml" 156 4602 4627 "bitmap.ml" 156 4602 4647
+type(
+  bytes * int * int
+)
+type(
+  (bytes * int * int) array -> int -> bytes * int * int
+)
+ident(
+  ext_ref Array.get
+)
+"bitmap.ml" 157 4651 4668 "bitmap.ml" 157 4651 4673
+type(
+  int
+)
+ident(
+  int_ref width "bitmap.ml" 120 3542 3555 "bitmap.ml" 120 3542 3560
+)
+"bitmap.ml" 158 4675 4693 "bitmap.ml" 158 4675 4699
+type(
+  int
+)
+ident(
+  int_ref height "bitmap.ml" 156 4602 4618 "bitmap.ml" 156 4602 4624
+)
+"bitmap.ml" 159 4701 4726 "bitmap.ml" 159 4701 4729
+type(
+  bytes
+)
+ident(
+  int_ref buf "bitmap.ml" 156 4602 4607 "bitmap.ml" 156 4602 4610
+)
+"bitmap.ml" 159 4701 4717 "bitmap.ml" 159 4701 4729
+type(
+  block_data
+)
+"bitmap.ml" 160 4731 4747 "bitmap.ml" 160 4731 4751
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 156 4602 4612 "bitmap.ml" 156 4602 4616
+)
+"bitmap.ml" 161 4753 4768 "bitmap.ml" 161 4753 4771
+type(
+  float
+)
+"bitmap.ml" 162 4773 4783 "bitmap.ml" 162 4773 4787
+type(
+  bytes option
+)
+"bitmap.ml" 157 4651 4652 "bitmap.ml" 163 4789 4791
+type(
+  block
+)
+"bitmap.ml" 156 4602 4603 "bitmap.ml" 163 4789 4791
+type(
+  block
+)
+"bitmap.ml" 155 4555 4596 "bitmap.ml" 163 4789 4791
+type(
+  int -> block
+)
+"bitmap.ml" 155 4555 4571 "bitmap.ml" 163 4789 4792
+type(
+  block array
+)
+"bitmap.ml" 155 4555 4568 "bitmap.ml" 163 4789 4795
+type(
+  block array array
+)
+"bitmap.ml" 165 4813 4824 "bitmap.ml" 165 4813 4832
+type(
+  int
+)
+ident(
+  int_ref blocks_y "bitmap.ml" 131 3852 3860 "bitmap.ml" 131 3852 3868
+)
+"bitmap.ml" 165 4813 4833 "bitmap.ml" 165 4813 4834
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"bitmap.ml" 165 4813 4835 "bitmap.ml" 165 4813 4836
+type(
+  int
+)
+"bitmap.ml" 165 4813 4824 "bitmap.ml" 165 4813 4836
+type(
+  bool
+)
+"bitmap.ml" 165 4813 4847 "bitmap.ml" 165 4813 4848
+type(
+  int
+)
+ident(
+  def x "bitmap.ml" 165 4813 4849 "bitmap.ml" 166 4855 4901
+)
+"bitmap.ml" 165 4813 4849 "bitmap.ml" 165 4813 4850
+type(
+  int
+)
+ident(
+  def y "bitmap.ml" 166 4855 4858 "bitmap.ml" 166 4855 4901
+)
+"bitmap.ml" 166 4855 4858 "bitmap.ml" 166 4855 4862
+type(
+  bytes array
+)
+ident(
+  int_ref bufs "bitmap.ml" 144 4217 4225 "bitmap.ml" 144 4217 4229
+)
+"bitmap.ml" 166 4855 4864 "bitmap.ml" 166 4855 4865
+type(
+  int
+)
+"bitmap.ml" 166 4855 4858 "bitmap.ml" 166 4855 4866
+type(
+  bytes
+)
+type(
+  bytes array -> int -> bytes
+)
+ident(
+  ext_ref Array.get
+)
+"bitmap.ml" 166 4855 4869 "bitmap.ml" 166 4855 4870
+type(
+  int
+)
+ident(
+  int_ref y "bitmap.ml" 165 4813 4849 "bitmap.ml" 165 4813 4850
+)
+"bitmap.ml" 166 4855 4871 "bitmap.ml" 166 4855 4872
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 166 4855 4873 "bitmap.ml" 166 4855 4878
+type(
+  int
+)
+ident(
+  int_ref width "bitmap.ml" 120 3542 3555 "bitmap.ml" 120 3542 3560
+)
+"bitmap.ml" 166 4855 4869 "bitmap.ml" 166 4855 4878
+type(
+  int
+)
+"bitmap.ml" 166 4855 4879 "bitmap.ml" 166 4855 4880
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"bitmap.ml" 166 4855 4881 "bitmap.ml" 166 4855 4882
+type(
+  int
+)
+ident(
+  int_ref x "bitmap.ml" 165 4813 4847 "bitmap.ml" 165 4813 4848
+)
+"bitmap.ml" 166 4855 4869 "bitmap.ml" 166 4855 4882
+type(
+  int
+)
+"bitmap.ml" 166 4855 4884 "bitmap.ml" 166 4855 4885
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 166 4855 4886 "bitmap.ml" 166 4855 4901
+type(
+  int
+)
+ident(
+  int_ref B.bytes_per_pixel "bitmap.ml" 55 1694 1696 "bitmap.ml" 55 1694 1721
+)
+"bitmap.ml" 166 4855 4868 "bitmap.ml" 166 4855 4901
+type(
+  int
+)
+"bitmap.ml" 166 4855 4858 "bitmap.ml" 166 4855 4901
+type(
+  bytes * int
+)
+"bitmap.ml" 165 4813 4849 "bitmap.ml" 166 4855 4901
+type(
+  int -> bytes * int
+)
+"bitmap.ml" 165 4813 4847 "bitmap.ml" 166 4855 4901
+type(
+  int -> int -> bytes * int
+)
+"bitmap.ml" 167 4904 4915 "bitmap.ml" 167 4904 4916
+type(
+  int
+)
+ident(
+  def x "bitmap.ml" 167 4904 4917 "bitmap.ml" 168 4923 4989
+)
+"bitmap.ml" 167 4904 4917 "bitmap.ml" 167 4904 4918
+type(
+  int
+)
+ident(
+  def y "bitmap.ml" 168 4923 4926 "bitmap.ml" 168 4923 4989
+)
+"bitmap.ml" 168 4923 4926 "bitmap.ml" 168 4923 4930
+type(
+  bytes array
+)
+ident(
+  int_ref bufs "bitmap.ml" 144 4217 4225 "bitmap.ml" 144 4217 4229
+)
+"bitmap.ml" 168 4923 4932 "bitmap.ml" 168 4923 4933
+type(
+  int
+)
+ident(
+  int_ref y "bitmap.ml" 167 4904 4917 "bitmap.ml" 167 4904 4918
+)
+"bitmap.ml" 168 4923 4934 "bitmap.ml" 168 4923 4935
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"bitmap.ml" 168 4923 4936 "bitmap.ml" 168 4923 4941
+type(
+  int
+)
+ident(
+  int_ref hsize "bitmap.ml" 128 3773 3781 "bitmap.ml" 128 3773 3786
+)
+"bitmap.ml" 168 4923 4932 "bitmap.ml" 168 4923 4941
+type(
+  int
+)
+"bitmap.ml" 168 4923 4926 "bitmap.ml" 168 4923 4942
+type(
+  bytes
+)
+type(
+  bytes array -> int -> bytes
+)
+ident(
+  ext_ref Array.get
+)
+"bitmap.ml" 168 4923 4946 "bitmap.ml" 168 4923 4947
+type(
+  int
+)
+ident(
+  int_ref y "bitmap.ml" 167 4904 4917 "bitmap.ml" 167 4904 4918
+)
+"bitmap.ml" 168 4923 4952 "bitmap.ml" 168 4923 4957
+type(
+  int
+)
+ident(
+  int_ref hsize "bitmap.ml" 128 3773 3781 "bitmap.ml" 128 3773 3786
+)
+"bitmap.ml" 168 4923 4946 "bitmap.ml" 168 4923 4957
+type(
+  int
+)
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"bitmap.ml" 168 4923 4959 "bitmap.ml" 168 4923 4960
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 168 4923 4961 "bitmap.ml" 168 4923 4966
+type(
+  int
+)
+ident(
+  int_ref width "bitmap.ml" 120 3542 3555 "bitmap.ml" 120 3542 3560
+)
+"bitmap.ml" 168 4923 4945 "bitmap.ml" 168 4923 4966
+type(
+  int
+)
+"bitmap.ml" 168 4923 4967 "bitmap.ml" 168 4923 4968
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"bitmap.ml" 168 4923 4969 "bitmap.ml" 168 4923 4970
+type(
+  int
+)
+ident(
+  int_ref x "bitmap.ml" 167 4904 4915 "bitmap.ml" 167 4904 4916
+)
+"bitmap.ml" 168 4923 4945 "bitmap.ml" 168 4923 4970
+type(
+  int
+)
+"bitmap.ml" 168 4923 4972 "bitmap.ml" 168 4923 4973
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 168 4923 4974 "bitmap.ml" 168 4923 4989
+type(
+  int
+)
+ident(
+  int_ref B.bytes_per_pixel "bitmap.ml" 55 1694 1696 "bitmap.ml" 55 1694 1721
+)
+"bitmap.ml" 168 4923 4944 "bitmap.ml" 168 4923 4989
+type(
+  int
+)
+"bitmap.ml" 168 4923 4926 "bitmap.ml" 168 4923 4989
+type(
+  bytes * int
+)
+"bitmap.ml" 167 4904 4917 "bitmap.ml" 168 4923 4989
+type(
+  int -> bytes * int
+)
+"bitmap.ml" 167 4904 4915 "bitmap.ml" 168 4923 4989
+type(
+  int -> int -> bytes * int
+)
+"bitmap.ml" 165 4813 4821 "bitmap.ml" 168 4923 4990
+type(
+  int -> int -> bytes * int
+)
+"bitmap.ml" 149 4399 4403 "bitmap.ml" 169 4991 4996
+type(
+  t
+)
+"bitmap.ml" 145 4287 4297 "bitmap.ml" 169 4991 4996
+type(
+  t
+)
+"bitmap.ml" 144 4217 4221 "bitmap.ml" 169 4991 4996
+type(
+  t
+)
+"bitmap.ml" 132 3899 3903 "bitmap.ml" 169 4991 4996
+type(
+  t
+)
+"bitmap.ml" 131 3852 3856 "bitmap.ml" 169 4991 4996
+type(
+  t
+)
+"bitmap.ml" 128 3773 3777 "bitmap.ml" 169 4991 4996
+type(
+  t
+)
+"bitmap.ml" 126 3698 3702 "bitmap.ml" 169 4991 4996
+type(
+  t
+)
+"bitmap.ml" 123 3617 3621 "bitmap.ml" 169 4991 4996
+type(
+  t
+)
+"bitmap.ml" 120 3542 3568 "bitmap.ml" 169 4991 4996
+type(
+  bytes option -> t
+)
+"bitmap.ml" 120 3542 3561 "bitmap.ml" 169 4991 4996
+type(
+  int -> bytes option -> t
+)
+"bitmap.ml" 120 3542 3555 "bitmap.ml" 169 4991 4996
+type(
+  int -> int -> bytes option -> t
+)
+"bitmap.ml" 172 5007 5013 "bitmap.ml" 172 5007 5021
+type(
+  block -> unit
+)
+ident(
+  def swap_out "bitmap.ml" 187 5541 5543 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 173 5033 5053 "bitmap.ml" 173 5033 5062
+type(
+  block_data
+)
+"bitmap.ml" 173 5033 5039 "bitmap.ml" 173 5033 5063
+type(
+  block
+)
+"bitmap.ml" 173 5033 5067 "bitmap.ml" 173 5033 5075
+type(
+  bytes -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"bitmap.ml" 173 5033 5076 "bitmap.ml" 173 5033 5105
+type(
+  bytes
+)
+"bitmap.ml" 173 5033 5067 "bitmap.ml" 173 5033 5105
+type(
+  unit
+)
+"bitmap.ml" 174 5106 5120 "bitmap.ml" 174 5106 5124
+type(
+  bytes option
+)
+"bitmap.ml" 174 5106 5112 "bitmap.ml" 174 5106 5125
+type(
+  block
+)
+"bitmap.ml" 174 5106 5129 "bitmap.ml" 174 5106 5137
+type(
+  bytes -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"bitmap.ml" 174 5106 5138 "bitmap.ml" 174 5106 5156
+type(
+  bytes
+)
+"bitmap.ml" 174 5106 5129 "bitmap.ml" 174 5106 5156
+type(
+  unit
+)
+"bitmap.ml" 175 5157 5176 "bitmap.ml" 175 5157 5181
+type(
+  bytes
+)
+ident(
+  def fname "bitmap.ml" 176 5237 5249 "bitmap.ml" 183 5460 5513
+)
+"bitmap.ml" 175 5157 5171 "bitmap.ml" 175 5157 5181
+type(
+  bytes option
+)
+"bitmap.ml" 175 5157 5205 "bitmap.ml" 175 5157 5206
+type(
+  bytes
+)
+ident(
+  def s "bitmap.ml" 176 5237 5249 "bitmap.ml" 183 5460 5513
+)
+"bitmap.ml" 175 5157 5196 "bitmap.ml" 175 5157 5206
+type(
+  block_data
+)
+"bitmap.ml" 175 5157 5221 "bitmap.ml" 175 5157 5225
+type(
+  int
+)
+ident(
+  def size "bitmap.ml" 176 5237 5249 "bitmap.ml" 183 5460 5513
+)
+"bitmap.ml" 175 5157 5163 "bitmap.ml" 175 5157 5226
+type(
+  block
+)
+"bitmap.ml" 175 5157 5163 "bitmap.ml" 175 5157 5233
+type(
+  block
+)
+ident(
+  def blk "bitmap.ml" 176 5237 5249 "bitmap.ml" 183 5460 5513
+)
+"bitmap.ml" 177 5253 5261 "bitmap.ml" 177 5253 5267
+type(
+  bytes -> unit
+)
+ident(
+  int_ref debugs "bitmap.ml" 18 909 913 "bitmap.ml" 18 909 919
+)
+"bitmap.ml" 177 5253 5269 "bitmap.ml" 177 5253 5283
+type(
+  (bytes -> bytes, unit, bytes) format -> bytes -> bytes
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"bitmap.ml" 177 5253 5284 "bitmap.ml" 177 5253 5297
+type(
+  (bytes -> bytes, unit, bytes) format
+)
+"bitmap.ml" 177 5253 5298 "bitmap.ml" 177 5253 5303
+type(
+  bytes
+)
+ident(
+  int_ref fname "bitmap.ml" 175 5157 5176 "bitmap.ml" 175 5157 5181
+)
+"bitmap.ml" 177 5253 5269 "bitmap.ml" 177 5253 5303
+type(
+  bytes
+)
+"bitmap.ml" 177 5253 5261 "bitmap.ml" 177 5253 5324
+type(
+  unit
+)
+"bitmap.ml" 178 5326 5338 "bitmap.ml" 178 5326 5340
+type(
+  out_channel
+)
+ident(
+  def oc "bitmap.ml" 179 5365 5373 "bitmap.ml" 181 5415 5448
+)
+"bitmap.ml" 178 5326 5343 "bitmap.ml" 178 5326 5355
+type(
+  bytes -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_bin
+)
+"bitmap.ml" 178 5326 5356 "bitmap.ml" 178 5326 5361
+type(
+  bytes
+)
+ident(
+  int_ref fname "bitmap.ml" 175 5157 5176 "bitmap.ml" 175 5157 5181
+)
+"bitmap.ml" 178 5326 5343 "bitmap.ml" 178 5326 5361
+type(
+  out_channel
+)
+"bitmap.ml" 179 5365 5373 "bitmap.ml" 179 5365 5379
+type(
+  out_channel -> bytes -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.output
+)
+"bitmap.ml" 179 5365 5380 "bitmap.ml" 179 5365 5382
+type(
+  out_channel
+)
+ident(
+  int_ref oc "bitmap.ml" 178 5326 5338 "bitmap.ml" 178 5326 5340
+)
+"bitmap.ml" 179 5365 5383 "bitmap.ml" 179 5365 5384
+type(
+  bytes
+)
+ident(
+  int_ref s "bitmap.ml" 175 5157 5205 "bitmap.ml" 175 5157 5206
+)
+"bitmap.ml" 179 5365 5385 "bitmap.ml" 179 5365 5386
+type(
+  int
+)
+"bitmap.ml" 179 5365 5387 "bitmap.ml" 179 5365 5391
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 175 5157 5221 "bitmap.ml" 175 5157 5225
+)
+"bitmap.ml" 179 5365 5373 "bitmap.ml" 179 5365 5391
+type(
+  unit
+)
+"bitmap.ml" 180 5393 5401 "bitmap.ml" 180 5393 5410
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"bitmap.ml" 180 5393 5411 "bitmap.ml" 180 5393 5413
+type(
+  out_channel
+)
+ident(
+  int_ref oc "bitmap.ml" 178 5326 5338 "bitmap.ml" 178 5326 5340
+)
+"bitmap.ml" 180 5393 5401 "bitmap.ml" 180 5393 5413
+type(
+  unit
+)
+"bitmap.ml" 181 5415 5423 "bitmap.ml" 181 5415 5426
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 175 5157 5163 "bitmap.ml" 175 5157 5233
+)
+"bitmap.ml" 181 5415 5441 "bitmap.ml" 181 5415 5448
+type(
+  block_data
+)
+"bitmap.ml" 181 5415 5423 "bitmap.ml" 181 5415 5448
+type(
+  unit
+)
+"bitmap.ml" 180 5393 5401 "bitmap.ml" 181 5415 5448
+type(
+  unit
+)
+"bitmap.ml" 179 5365 5373 "bitmap.ml" 181 5415 5448
+type(
+  unit
+)
+"bitmap.ml" 178 5326 5334 "bitmap.ml" 181 5415 5448
+type(
+  unit
+)
+"bitmap.ml" 183 5460 5468 "bitmap.ml" 183 5460 5469
+type(
+  exn
+)
+ident(
+  def e "bitmap.ml" 183 5460 5473 "bitmap.ml" 183 5460 5513
+)
+"bitmap.ml" 183 5460 5473 "bitmap.ml" 183 5460 5486
+type(
+  bytes -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"bitmap.ml" 183 5460 5487 "bitmap.ml" 183 5460 5504
+type(
+  bytes
+)
+"bitmap.ml" 183 5460 5473 "bitmap.ml" 183 5460 5504
+type(
+  unit
+)
+"bitmap.ml" 183 5460 5506 "bitmap.ml" 183 5460 5511
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"bitmap.ml" 183 5460 5512 "bitmap.ml" 183 5460 5513
+type(
+  exn
+)
+ident(
+  int_ref e "bitmap.ml" 183 5460 5468 "bitmap.ml" 183 5460 5469
+)
+"bitmap.ml" 183 5460 5506 "bitmap.ml" 183 5460 5513
+type(
+  unit
+)
+"bitmap.ml" 183 5460 5473 "bitmap.ml" 183 5460 5513
+type(
+  unit
+)
+"bitmap.ml" 177 5253 5261 "bitmap.ml" 183 5460 5513
+type(
+  unit
+)
+"bitmap.ml" 176 5237 5249 "bitmap.ml" 183 5460 5513
+type(
+  unit
+)
+"bitmap.ml" 185 5524 5530 "bitmap.ml" 185 5524 5531
+type(
+  block
+)
+"bitmap.ml" 185 5524 5535 "bitmap.ml" 185 5524 5537
+type(
+  unit
+)
+"bitmap.ml" 172 5007 5024 "bitmap.ml" 185 5524 5537
+type(
+  block -> unit
+)
+"bitmap.ml" 187 5541 5547 "bitmap.ml" 187 5541 5558
+type(
+  block -> unit
+)
+ident(
+  def touch_block "bitmap.ml" 189 5597 5599 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 187 5541 5559 "bitmap.ml" 187 5541 5562
+type(
+  block
+)
+ident(
+  def blk "bitmap.ml" 187 5541 5565 "bitmap.ml" 187 5541 5593
+)
+"bitmap.ml" 187 5541 5565 "bitmap.ml" 187 5541 5568
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 187 5541 5559 "bitmap.ml" 187 5541 5562
+)
+"bitmap.ml" 187 5541 5582 "bitmap.ml" 187 5541 5590
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"bitmap.ml" 187 5541 5591 "bitmap.ml" 187 5541 5593
+type(
+  unit
+)
+"bitmap.ml" 187 5541 5582 "bitmap.ml" 187 5541 5593
+type(
+  float
+)
+"bitmap.ml" 187 5541 5565 "bitmap.ml" 187 5541 5593
+type(
+  unit
+)
+"bitmap.ml" 187 5541 5559 "bitmap.ml" 187 5541 5593
+type(
+  block -> unit
+)
+"bitmap.ml" 189 5597 5603 "bitmap.ml" 189 5597 5618
+type(
+  int -> unit
+)
+ident(
+  def swap_out_eldest "bitmap.ml" 202 5986 5988 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 189 5597 5619 "bitmap.ml" 189 5597 5624
+type(
+  int
+)
+ident(
+  def words "bitmap.ml" 190 5627 5631 "bitmap.ml" 200 5958 5982
+)
+"bitmap.ml" 190 5627 5635 "bitmap.ml" 190 5627 5641
+type(
+  block list
+)
+ident(
+  def sorted "bitmap.ml" 192 5730 5734 "bitmap.ml" 200 5958 5982
+)
+"bitmap.ml" 191 5644 5650 "bitmap.ml" 191 5644 5659
+type(
+  (block -> block -> int) -> block list -> block list
+)
+ident(
+  ext_ref List.sort
+)
+"bitmap.ml" 191 5644 5665 "bitmap.ml" 191 5644 5667
+type(
+  block
+)
+ident(
+  def b1 "bitmap.ml" 191 5644 5668 "bitmap.ml" 191 5644 5707
+)
+"bitmap.ml" 191 5644 5668 "bitmap.ml" 191 5644 5670
+type(
+  block
+)
+ident(
+  def b2 "bitmap.ml" 191 5644 5674 "bitmap.ml" 191 5644 5707
+)
+"bitmap.ml" 191 5644 5674 "bitmap.ml" 191 5644 5681
+type(
+  float -> float -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"bitmap.ml" 191 5644 5682 "bitmap.ml" 191 5644 5684
+type(
+  block
+)
+ident(
+  int_ref b1 "bitmap.ml" 191 5644 5665 "bitmap.ml" 191 5644 5667
+)
+"bitmap.ml" 191 5644 5682 "bitmap.ml" 191 5644 5694
+type(
+  float
+)
+"bitmap.ml" 191 5644 5695 "bitmap.ml" 191 5644 5697
+type(
+  block
+)
+ident(
+  int_ref b2 "bitmap.ml" 191 5644 5668 "bitmap.ml" 191 5644 5670
+)
+"bitmap.ml" 191 5644 5695 "bitmap.ml" 191 5644 5707
+type(
+  float
+)
+"bitmap.ml" 191 5644 5674 "bitmap.ml" 191 5644 5707
+type(
+  int
+)
+"bitmap.ml" 191 5644 5668 "bitmap.ml" 191 5644 5707
+type(
+  block -> int
+)
+"bitmap.ml" 191 5644 5665 "bitmap.ml" 191 5644 5707
+type(
+  block -> block -> int
+)
+"bitmap.ml" 191 5644 5710 "bitmap.ml" 191 5644 5726
+type(
+  block list ref
+)
+ident(
+  int_ref swappable_blocks "bitmap.ml" 38 1390 1394 "bitmap.ml" 38 1390 1410
+)
+"bitmap.ml" 191 5644 5709 "bitmap.ml" 191 5644 5726
+type(
+  block list
+)
+type(
+  block list ref -> block list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bitmap.ml" 191 5644 5650 "bitmap.ml" 191 5644 5726
+type(
+  block list
+)
+"bitmap.ml" 192 5730 5742 "bitmap.ml" 192 5730 5749
+type(
+  block list -> int -> unit
+)
+ident(
+  def swapper "bitmap.ml" 192 5730 5734 "bitmap.ml" 200 5958 5982
+)
+"bitmap.ml" 192 5730 5750 "bitmap.ml" 192 5730 5756
+type(
+  block list
+)
+ident(
+  def sorted "bitmap.ml" 192 5730 5757 "bitmap.ml" 199 5918 5954
+)
+"bitmap.ml" 192 5730 5757 "bitmap.ml" 192 5730 5758
+type(
+  int
+)
+ident(
+  def i "bitmap.ml" 193 5761 5766 "bitmap.ml" 199 5918 5954
+)
+"bitmap.ml" 193 5761 5772 "bitmap.ml" 193 5761 5778
+type(
+  block list
+)
+ident(
+  int_ref sorted "bitmap.ml" 192 5730 5750 "bitmap.ml" 192 5730 5756
+)
+"bitmap.ml" 194 5784 5792 "bitmap.ml" 194 5784 5794
+type(
+  block list
+)
+"bitmap.ml" 194 5784 5798 "bitmap.ml" 194 5784 5800
+type(
+  unit
+)
+"bitmap.ml" 195 5801 5809 "bitmap.ml" 195 5801 5810
+type(
+  block
+)
+ident(
+  def x "bitmap.ml" 196 5820 5828 "bitmap.ml" 199 5918 5954
+)
+"bitmap.ml" 195 5801 5814 "bitmap.ml" 195 5801 5816
+type(
+  block list
+)
+ident(
+  def xs "bitmap.ml" 196 5820 5828 "bitmap.ml" 199 5918 5954
+)
+"bitmap.ml" 195 5801 5809 "bitmap.ml" 195 5801 5816
+type(
+  block list
+)
+"bitmap.ml" 196 5820 5828 "bitmap.ml" 196 5820 5836
+type(
+  block -> unit
+)
+ident(
+  int_ref swap_out "bitmap.ml" 172 5007 5013 "bitmap.ml" 172 5007 5021
+)
+"bitmap.ml" 196 5820 5837 "bitmap.ml" 196 5820 5838
+type(
+  block
+)
+ident(
+  int_ref x "bitmap.ml" 195 5801 5809 "bitmap.ml" 195 5801 5810
+)
+"bitmap.ml" 196 5820 5828 "bitmap.ml" 196 5820 5838
+type(
+  unit
+)
+"bitmap.ml" 197 5840 5848 "bitmap.ml" 197 5840 5855
+type(
+  block list -> int -> unit
+)
+ident(
+  int_ref swapper "bitmap.ml" 192 5730 5742 "bitmap.ml" 192 5730 5749
+)
+"bitmap.ml" 197 5840 5856 "bitmap.ml" 197 5840 5858
+type(
+  block list
+)
+ident(
+  int_ref xs "bitmap.ml" 195 5801 5814 "bitmap.ml" 195 5801 5816
+)
+"bitmap.ml" 198 5859 5870 "bitmap.ml" 198 5859 5871
+type(
+  int
+)
+ident(
+  int_ref i "bitmap.ml" 192 5730 5757 "bitmap.ml" 192 5730 5758
+)
+"bitmap.ml" 198 5859 5872 "bitmap.ml" 198 5859 5873
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"bitmap.ml" 198 5859 5875 "bitmap.ml" 198 5859 5876
+type(
+  block
+)
+ident(
+  int_ref x "bitmap.ml" 195 5801 5809 "bitmap.ml" 195 5801 5810
+)
+"bitmap.ml" 198 5859 5875 "bitmap.ml" 198 5859 5887
+type(
+  int
+)
+"bitmap.ml" 198 5859 5888 "bitmap.ml" 198 5859 5889
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"bitmap.ml" 198 5859 5890 "bitmap.ml" 198 5859 5910
+type(
+  int
+)
+ident(
+  ext_ref Camlimages.word_size
+)
+"bitmap.ml" 198 5859 5875 "bitmap.ml" 198 5859 5910
+type(
+  int
+)
+"bitmap.ml" 198 5859 5911 "bitmap.ml" 198 5859 5912
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"bitmap.ml" 198 5859 5913 "bitmap.ml" 198 5859 5914
+type(
+  int
+)
+"bitmap.ml" 198 5859 5875 "bitmap.ml" 198 5859 5914
+type(
+  int
+)
+"bitmap.ml" 198 5859 5916 "bitmap.ml" 198 5859 5917
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"bitmap.ml" 199 5918 5933 "bitmap.ml" 199 5918 5953
+type(
+  int
+)
+ident(
+  ext_ref Camlimages.word_size
+)
+"bitmap.ml" 198 5859 5874 "bitmap.ml" 199 5918 5953
+type(
+  int
+)
+"bitmap.ml" 198 5859 5870 "bitmap.ml" 199 5918 5953
+type(
+  int
+)
+"bitmap.ml" 197 5840 5848 "bitmap.ml" 199 5918 5954
+type(
+  unit
+)
+"bitmap.ml" 196 5820 5828 "bitmap.ml" 199 5918 5954
+type(
+  unit
+)
+"bitmap.ml" 193 5761 5766 "bitmap.ml" 199 5918 5954
+type(
+  unit
+)
+"bitmap.ml" 192 5730 5757 "bitmap.ml" 199 5918 5954
+type(
+  int -> unit
+)
+"bitmap.ml" 192 5730 5750 "bitmap.ml" 199 5918 5954
+type(
+  block list -> int -> unit
+)
+"bitmap.ml" 200 5958 5962 "bitmap.ml" 200 5958 5969
+type(
+  block list -> int -> unit
+)
+ident(
+  int_ref swapper "bitmap.ml" 192 5730 5742 "bitmap.ml" 192 5730 5749
+)
+"bitmap.ml" 200 5958 5970 "bitmap.ml" 200 5958 5976
+type(
+  block list
+)
+ident(
+  int_ref sorted "bitmap.ml" 190 5627 5635 "bitmap.ml" 190 5627 5641
+)
+"bitmap.ml" 200 5958 5977 "bitmap.ml" 200 5958 5982
+type(
+  int
+)
+ident(
+  int_ref words "bitmap.ml" 189 5597 5619 "bitmap.ml" 189 5597 5624
+)
+"bitmap.ml" 200 5958 5962 "bitmap.ml" 200 5958 5982
+type(
+  unit
+)
+"bitmap.ml" 192 5730 5734 "bitmap.ml" 200 5958 5982
+type(
+  unit
+)
+"bitmap.ml" 190 5627 5631 "bitmap.ml" 200 5958 5982
+type(
+  unit
+)
+"bitmap.ml" 189 5597 5619 "bitmap.ml" 200 5958 5982
+type(
+  int -> unit
+)
+"bitmap.ml" 202 5986 5992 "bitmap.ml" 202 5986 5999
+type(
+  int -> unit
+)
+ident(
+  def require "bitmap.ml" 208 6220 6222 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 202 5986 6000 "bitmap.ml" 202 5986 6005
+type(
+  int
+)
+ident(
+  def bytes "bitmap.ml" 203 6008 6012 "bitmap.ml" 206 6175 6216
+)
+"bitmap.ml" 203 6008 6016 "bitmap.ml" 203 6008 6021
+type(
+  int
+)
+ident(
+  def words "bitmap.ml" 204 6085 6089 "bitmap.ml" 206 6175 6216
+)
+"bitmap.ml" 203 6008 6025 "bitmap.ml" 203 6008 6030
+type(
+  int
+)
+ident(
+  int_ref bytes "bitmap.ml" 202 5986 6000 "bitmap.ml" 202 5986 6005
+)
+"bitmap.ml" 203 6008 6031 "bitmap.ml" 203 6008 6032
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"bitmap.ml" 203 6008 6033 "bitmap.ml" 203 6008 6053
+type(
+  int
+)
+ident(
+  ext_ref Camlimages.word_size
+)
+"bitmap.ml" 203 6008 6025 "bitmap.ml" 203 6008 6053
+type(
+  int
+)
+"bitmap.ml" 203 6008 6054 "bitmap.ml" 203 6008 6055
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"bitmap.ml" 203 6008 6056 "bitmap.ml" 203 6008 6057
+type(
+  int
+)
+"bitmap.ml" 203 6008 6025 "bitmap.ml" 203 6008 6057
+type(
+  int
+)
+"bitmap.ml" 203 6008 6059 "bitmap.ml" 203 6008 6060
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"bitmap.ml" 203 6008 6061 "bitmap.ml" 203 6008 6081
+type(
+  int
+)
+ident(
+  ext_ref Camlimages.word_size
+)
+"bitmap.ml" 203 6008 6024 "bitmap.ml" 203 6008 6081
+type(
+  int
+)
+"bitmap.ml" 204 6085 6093 "bitmap.ml" 204 6085 6097
+type(
+  Gc.stat
+)
+ident(
+  def stat "bitmap.ml" 205 6114 6118 "bitmap.ml" 206 6175 6216
+)
+"bitmap.ml" 204 6085 6100 "bitmap.ml" 204 6085 6107
+type(
+  unit -> Gc.stat
+)
+ident(
+  ext_ref Gc.stat
+)
+"bitmap.ml" 204 6085 6108 "bitmap.ml" 204 6085 6110
+type(
+  unit
+)
+"bitmap.ml" 204 6085 6100 "bitmap.ml" 204 6085 6110
+type(
+  Gc.stat
+)
+"bitmap.ml" 205 6114 6122 "bitmap.ml" 205 6114 6126
+type(
+  int
+)
+ident(
+  def over "bitmap.ml" 206 6175 6179 "bitmap.ml" 206 6175 6216
+)
+"bitmap.ml" 205 6114 6129 "bitmap.ml" 205 6114 6133
+type(
+  Gc.stat
+)
+ident(
+  int_ref stat "bitmap.ml" 204 6085 6093 "bitmap.ml" 204 6085 6097
+)
+"bitmap.ml" 205 6114 6129 "bitmap.ml" 205 6114 6147
+type(
+  int
+)
+"bitmap.ml" 205 6114 6148 "bitmap.ml" 205 6114 6149
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"bitmap.ml" 205 6114 6150 "bitmap.ml" 205 6114 6155
+type(
+  int
+)
+ident(
+  int_ref words "bitmap.ml" 203 6008 6016 "bitmap.ml" 203 6008 6021
+)
+"bitmap.ml" 205 6114 6129 "bitmap.ml" 205 6114 6155
+type(
+  int
+)
+"bitmap.ml" 205 6114 6156 "bitmap.ml" 205 6114 6157
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"bitmap.ml" 205 6114 6159 "bitmap.ml" 205 6114 6171
+type(
+  int ref
+)
+ident(
+  int_ref maximum_live "bitmap.ml" 20 958 962 "bitmap.ml" 20 958 974
+)
+"bitmap.ml" 205 6114 6158 "bitmap.ml" 205 6114 6171
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"bitmap.ml" 205 6114 6129 "bitmap.ml" 205 6114 6171
+type(
+  int
+)
+"bitmap.ml" 206 6175 6182 "bitmap.ml" 206 6175 6186
+type(
+  int
+)
+ident(
+  int_ref over "bitmap.ml" 205 6114 6122 "bitmap.ml" 205 6114 6126
+)
+"bitmap.ml" 206 6175 6187 "bitmap.ml" 206 6175 6188
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"bitmap.ml" 206 6175 6189 "bitmap.ml" 206 6175 6190
+type(
+  int
+)
+"bitmap.ml" 206 6175 6182 "bitmap.ml" 206 6175 6190
+type(
+  bool
+)
+"bitmap.ml" 206 6175 6196 "bitmap.ml" 206 6175 6211
+type(
+  int -> unit
+)
+ident(
+  int_ref swap_out_eldest "bitmap.ml" 189 5597 5603 "bitmap.ml" 189 5597 5618
+)
+"bitmap.ml" 206 6175 6212 "bitmap.ml" 206 6175 6216
+type(
+  int
+)
+ident(
+  int_ref over "bitmap.ml" 205 6114 6122 "bitmap.ml" 205 6114 6126
+)
+"bitmap.ml" 206 6175 6196 "bitmap.ml" 206 6175 6216
+type(
+  unit
+)
+"bitmap.ml" 206 6175 6179 "bitmap.ml" 206 6175 6216
+type(
+  unit
+)
+type(
+  unit
+)
+"bitmap.ml" 205 6114 6118 "bitmap.ml" 206 6175 6216
+type(
+  unit
+)
+"bitmap.ml" 204 6085 6089 "bitmap.ml" 206 6175 6216
+type(
+  unit
+)
+"bitmap.ml" 203 6008 6012 "bitmap.ml" 206 6175 6216
+type(
+  unit
+)
+"bitmap.ml" 202 5986 6000 "bitmap.ml" 206 6175 6216
+type(
+  int -> unit
+)
+"bitmap.ml" 208 6220 6226 "bitmap.ml" 208 6220 6233
+type(
+  block -> bytes
+)
+ident(
+  def swap_in "bitmap.ml" 232 6939 6941 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 209 6245 6265 "bitmap.ml" 209 6245 6274
+type(
+  block_data
+)
+"bitmap.ml" 209 6245 6251 "bitmap.ml" 209 6245 6275
+type(
+  block
+)
+"bitmap.ml" 209 6245 6279 "bitmap.ml" 209 6245 6284
+type(
+  exn -> bytes
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"bitmap.ml" 209 6245 6294 "bitmap.ml" 209 6245 6322
+type(
+  bytes
+)
+"bitmap.ml" 209 6245 6286 "bitmap.ml" 209 6245 6322
+type(
+  exn
+)
+"bitmap.ml" 209 6245 6279 "bitmap.ml" 209 6245 6323
+type(
+  bytes
+)
+"bitmap.ml" 210 6324 6353 "bitmap.ml" 210 6324 6354
+type(
+  bytes
+)
+ident(
+  def s "bitmap.ml" 211 6366 6367 "bitmap.ml" 212 6384 6386
+)
+"bitmap.ml" 210 6324 6344 "bitmap.ml" 210 6324 6354
+type(
+  block_data
+)
+"bitmap.ml" 210 6324 6330 "bitmap.ml" 210 6324 6355
+type(
+  block
+)
+"bitmap.ml" 210 6324 6330 "bitmap.ml" 210 6324 6362
+type(
+  block
+)
+ident(
+  def blk "bitmap.ml" 211 6366 6367 "bitmap.ml" 212 6384 6386
+)
+"bitmap.ml" 211 6366 6367 "bitmap.ml" 211 6366 6378
+type(
+  block -> unit
+)
+ident(
+  int_ref touch_block "bitmap.ml" 187 5541 5547 "bitmap.ml" 187 5541 5558
+)
+"bitmap.ml" 211 6366 6379 "bitmap.ml" 211 6366 6382
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 210 6324 6330 "bitmap.ml" 210 6324 6362
+)
+"bitmap.ml" 211 6366 6367 "bitmap.ml" 211 6366 6382
+type(
+  unit
+)
+"bitmap.ml" 212 6384 6385 "bitmap.ml" 212 6384 6386
+type(
+  bytes
+)
+ident(
+  int_ref s "bitmap.ml" 210 6324 6353 "bitmap.ml" 210 6324 6354
+)
+"bitmap.ml" 211 6366 6367 "bitmap.ml" 212 6384 6386
+type(
+  bytes
+)
+"bitmap.ml" 213 6387 6406 "bitmap.ml" 213 6387 6411
+type(
+  bytes
+)
+ident(
+  def fname "bitmap.ml" 214 6464 6471 "bitmap.ml" 228 6887 6906
+)
+"bitmap.ml" 213 6387 6401 "bitmap.ml" 213 6387 6411
+type(
+  bytes option
+)
+"bitmap.ml" 213 6387 6426 "bitmap.ml" 213 6387 6433
+type(
+  block_data
+)
+"bitmap.ml" 213 6387 6448 "bitmap.ml" 213 6387 6452
+type(
+  int
+)
+ident(
+  def size "bitmap.ml" 214 6464 6471 "bitmap.ml" 228 6887 6906
+)
+"bitmap.ml" 213 6387 6393 "bitmap.ml" 213 6387 6453
+type(
+  block
+)
+"bitmap.ml" 213 6387 6393 "bitmap.ml" 213 6387 6460
+type(
+  block
+)
+ident(
+  def blk "bitmap.ml" 214 6464 6471 "bitmap.ml" 228 6887 6906
+)
+"bitmap.ml" 215 6475 6485 "bitmap.ml" 215 6475 6491
+type(
+  bytes -> unit
+)
+ident(
+  int_ref debugs "bitmap.ml" 18 909 913 "bitmap.ml" 18 909 919
+)
+"bitmap.ml" 215 6475 6493 "bitmap.ml" 215 6475 6503
+type(
+  bytes
+)
+"bitmap.ml" 215 6475 6503 "bitmap.ml" 215 6475 6504
+type(
+  bytes -> bytes -> bytes
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"bitmap.ml" 215 6475 6504 "bitmap.ml" 215 6475 6509
+type(
+  bytes
+)
+ident(
+  int_ref fname "bitmap.ml" 213 6387 6406 "bitmap.ml" 213 6387 6411
+)
+"bitmap.ml" 215 6475 6493 "bitmap.ml" 215 6475 6509
+type(
+  bytes
+)
+"bitmap.ml" 215 6475 6485 "bitmap.ml" 215 6475 6510
+type(
+  unit
+)
+"bitmap.ml" 216 6512 6522 "bitmap.ml" 216 6512 6529
+type(
+  int -> unit
+)
+ident(
+  int_ref require "bitmap.ml" 202 5986 5992 "bitmap.ml" 202 5986 5999
+)
+"bitmap.ml" 216 6512 6530 "bitmap.ml" 216 6512 6534
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 213 6387 6448 "bitmap.ml" 213 6387 6452
+)
+"bitmap.ml" 216 6512 6522 "bitmap.ml" 216 6512 6534
+type(
+  unit
+)
+"bitmap.ml" 217 6536 6550 "bitmap.ml" 217 6536 6552
+type(
+  in_channel
+)
+ident(
+  def ic "bitmap.ml" 218 6576 6586 "bitmap.ml" 224 6770 6781
+)
+"bitmap.ml" 217 6536 6555 "bitmap.ml" 217 6536 6566
+type(
+  bytes -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in_bin
+)
+"bitmap.ml" 217 6536 6567 "bitmap.ml" 217 6536 6572
+type(
+  bytes
+)
+ident(
+  int_ref fname "bitmap.ml" 213 6387 6406 "bitmap.ml" 213 6387 6411
+)
+"bitmap.ml" 217 6536 6555 "bitmap.ml" 217 6536 6572
+type(
+  in_channel
+)
+"bitmap.ml" 218 6576 6590 "bitmap.ml" 218 6576 6591
+type(
+  bytes
+)
+ident(
+  def s "bitmap.ml" 219 6616 6626 "bitmap.ml" 224 6770 6781
+)
+"bitmap.ml" 218 6576 6594 "bitmap.ml" 218 6576 6607
+type(
+  int -> bytes
+)
+ident(
+  int_ref string_create "bitmap.ml" 41 1450 1454 "bitmap.ml" 41 1450 1467
+)
+"bitmap.ml" 218 6576 6608 "bitmap.ml" 218 6576 6612
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 213 6387 6448 "bitmap.ml" 213 6387 6452
+)
+"bitmap.ml" 218 6576 6594 "bitmap.ml" 218 6576 6612
+type(
+  bytes
+)
+"bitmap.ml" 219 6616 6626 "bitmap.ml" 219 6616 6638
+type(
+  in_channel -> bytes -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.really_input
+)
+"bitmap.ml" 219 6616 6639 "bitmap.ml" 219 6616 6641
+type(
+  in_channel
+)
+ident(
+  int_ref ic "bitmap.ml" 217 6536 6550 "bitmap.ml" 217 6536 6552
+)
+"bitmap.ml" 219 6616 6642 "bitmap.ml" 219 6616 6643
+type(
+  bytes
+)
+ident(
+  int_ref s "bitmap.ml" 218 6576 6590 "bitmap.ml" 218 6576 6591
+)
+"bitmap.ml" 219 6616 6644 "bitmap.ml" 219 6616 6645
+type(
+  int
+)
+"bitmap.ml" 219 6616 6646 "bitmap.ml" 219 6616 6650
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 213 6387 6448 "bitmap.ml" 213 6387 6452
+)
+"bitmap.ml" 219 6616 6626 "bitmap.ml" 219 6616 6650
+type(
+  unit
+)
+"bitmap.ml" 220 6652 6662 "bitmap.ml" 220 6652 6670
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"bitmap.ml" 220 6652 6671 "bitmap.ml" 220 6652 6673
+type(
+  in_channel
+)
+ident(
+  int_ref ic "bitmap.ml" 217 6536 6550 "bitmap.ml" 217 6536 6552
+)
+"bitmap.ml" 220 6652 6662 "bitmap.ml" 220 6652 6673
+type(
+  unit
+)
+"bitmap.ml" 221 6675 6685 "bitmap.ml" 221 6675 6688
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 213 6387 6393 "bitmap.ml" 213 6387 6460
+)
+"bitmap.ml" 221 6675 6712 "bitmap.ml" 221 6675 6713
+type(
+  bytes
+)
+ident(
+  int_ref s "bitmap.ml" 218 6576 6590 "bitmap.ml" 218 6576 6591
+)
+"bitmap.ml" 221 6675 6703 "bitmap.ml" 221 6675 6713
+type(
+  block_data
+)
+"bitmap.ml" 221 6675 6685 "bitmap.ml" 221 6675 6713
+type(
+  unit
+)
+"bitmap.ml" 222 6715 6725 "bitmap.ml" 222 6715 6735
+type(
+  bytes -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"bitmap.ml" 222 6715 6736 "bitmap.ml" 222 6715 6741
+type(
+  bytes
+)
+ident(
+  int_ref fname "bitmap.ml" 213 6387 6406 "bitmap.ml" 213 6387 6411
+)
+"bitmap.ml" 222 6715 6725 "bitmap.ml" 222 6715 6741
+type(
+  unit
+)
+"bitmap.ml" 223 6743 6753 "bitmap.ml" 223 6743 6764
+type(
+  block -> unit
+)
+ident(
+  int_ref touch_block "bitmap.ml" 187 5541 5547 "bitmap.ml" 187 5541 5558
+)
+"bitmap.ml" 223 6743 6765 "bitmap.ml" 223 6743 6768
+type(
+  block
+)
+ident(
+  int_ref blk "bitmap.ml" 213 6387 6393 "bitmap.ml" 213 6387 6460
+)
+"bitmap.ml" 223 6743 6753 "bitmap.ml" 223 6743 6768
+type(
+  unit
+)
+"bitmap.ml" 224 6770 6780 "bitmap.ml" 224 6770 6781
+type(
+  bytes
+)
+ident(
+  int_ref s "bitmap.ml" 218 6576 6590 "bitmap.ml" 218 6576 6591
+)
+"bitmap.ml" 223 6743 6753 "bitmap.ml" 224 6770 6781
+type(
+  bytes
+)
+"bitmap.ml" 222 6715 6725 "bitmap.ml" 224 6770 6781
+type(
+  bytes
+)
+"bitmap.ml" 221 6675 6685 "bitmap.ml" 224 6770 6781
+type(
+  bytes
+)
+"bitmap.ml" 220 6652 6662 "bitmap.ml" 224 6770 6781
+type(
+  bytes
+)
+"bitmap.ml" 219 6616 6626 "bitmap.ml" 224 6770 6781
+type(
+  bytes
+)
+"bitmap.ml" 218 6576 6586 "bitmap.ml" 224 6770 6781
+type(
+  bytes
+)
+"bitmap.ml" 217 6536 6546 "bitmap.ml" 224 6770 6781
+type(
+  bytes
+)
+"bitmap.ml" 226 6788 6791 "bitmap.ml" 226 6788 6792
+type(
+  exn
+)
+ident(
+  def e "bitmap.ml" 226 6788 6796 "bitmap.ml" 228 6887 6906
+)
+"bitmap.ml" 226 6788 6796 "bitmap.ml" 226 6788 6809
+type(
+  bytes -> unit
+)
+ident(
+  ext_ref Pervasives.prerr_endline
+)
+"bitmap.ml" 227 6810 6825 "bitmap.ml" 227 6810 6839
+type(
+  (bytes -> bytes, unit, bytes) format -> bytes -> bytes
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"bitmap.ml" 227 6810 6840 "bitmap.ml" 227 6810 6861
+type(
+  (bytes -> bytes, unit, bytes) format
+)
+"bitmap.ml" 227 6810 6863 "bitmap.ml" 227 6810 6881
+type(
+  exn -> bytes
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"bitmap.ml" 227 6810 6882 "bitmap.ml" 227 6810 6883
+type(
+  exn
+)
+ident(
+  int_ref e "bitmap.ml" 226 6788 6791 "bitmap.ml" 226 6788 6792
+)
+"bitmap.ml" 227 6810 6863 "bitmap.ml" 227 6810 6883
+type(
+  bytes
+)
+"bitmap.ml" 227 6810 6825 "bitmap.ml" 227 6810 6884
+type(
+  bytes
+)
+"bitmap.ml" 226 6788 6796 "bitmap.ml" 227 6810 6885
+type(
+  unit
+)
+"bitmap.ml" 228 6887 6899 "bitmap.ml" 228 6887 6904
+type(
+  exn -> bytes
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"bitmap.ml" 228 6887 6905 "bitmap.ml" 228 6887 6906
+type(
+  exn
+)
+ident(
+  int_ref e "bitmap.ml" 226 6788 6791 "bitmap.ml" 226 6788 6792
+)
+"bitmap.ml" 228 6887 6899 "bitmap.ml" 228 6887 6906
+type(
+  bytes
+)
+"bitmap.ml" 226 6788 6796 "bitmap.ml" 228 6887 6906
+type(
+  bytes
+)
+"bitmap.ml" 216 6512 6522 "bitmap.ml" 228 6887 6906
+type(
+  bytes
+)
+"bitmap.ml" 215 6475 6485 "bitmap.ml" 228 6887 6906
+type(
+  bytes
+)
+"bitmap.ml" 214 6464 6471 "bitmap.ml" 228 6887 6906
+type(
+  bytes
+)
+"bitmap.ml" 230 6912 6918 "bitmap.ml" 230 6912 6919
+type(
+  block
+)
+"bitmap.ml" 230 6912 6923 "bitmap.ml" 230 6912 6935
+type(
+  bytes
+)
+type(
+  bool
+)
+"bitmap.ml" 208 6220 6236 "bitmap.ml" 230 6912 6935
+type(
+  block -> bytes
+)
+"bitmap.ml" 232 6939 6945 "bitmap.ml" 232 6939 6966
+type(
+  int -> int -> bytes option -> '_b
+)
+ident(
+  def alloc_swappable_block "bitmap.ml" 256 7778 7780 "bitmap.ml" 581 19158 19161
+)
+"bitmap.ml" 232 6939 6967 "bitmap.ml" 232 6939 6972
+type(
+  int
+)
+ident(
+  def width "bitmap.ml" 232 6939 6973 "bitmap.ml" 250 7523 7530
+)
+"bitmap.ml" 232 6939 6973 "bitmap.ml" 232 6939 6979
+type(
+  int
+)
+ident(
+  def height "bitmap.ml" 232 6939 6980 "bitmap.ml" 250 7523 7530
+)
+"bitmap.ml" 232 6939 6980 "bitmap.ml" 232 6939 6984
+type(
+  bytes option
+)
+ident(
+  def init "bitmap.ml" 234 7024 7028 "bitmap.ml" 250 7523 7530
+)
+"bitmap.ml" 234 7024 7032 "bitmap.ml" 234 7024 7036
+type(
+  int
+)
+ident(
+  def size "bitmap.ml" 235 7075 7079 "bitmap.ml" 250 7523 7530
+)
+"bitmap.ml" 234 7024 7039 "bitmap.ml" 234 7024 7054
+type(
+  int
+)
+ident(
+  int_ref B.bytes_per_pixel "bitmap.ml" 55 1694 1696 "bitmap.ml" 55 1694 1721
+)
+"bitmap.ml" 234 7024 7055 "bitmap.ml" 234 7024 7056
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 234 7024 7057 "bitmap.ml" 234 7024 7062
+type(
+  int
+)
+ident(
+  int_ref width "bitmap.ml" 232 6939 6967 "bitmap.ml" 232 6939 6972
+)
+"bitmap.ml" 234 7024 7039 "bitmap.ml" 234 7024 7062
+type(
+  int
+)
+"bitmap.ml" 234 7024 7063 "bitmap.ml" 234 7024 7064
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"bitmap.ml" 234 7024 7065 "bitmap.ml" 234 7024 7071
+type(
+  int
+)
+ident(
+  int_ref height "bitmap.ml" 232 6939 6973 "bitmap.ml" 232 6939 6979
+)
+"bitmap.ml" 234 7024 7039 "bitmap.ml" 234 7024 7071
+type(
+  int
+)
+"bitmap.ml" 235 7075 7079 "bitmap.ml" 235 7075 7086
+type(
+  int -> unit
+)
+ident(
+  int_ref require "bitmap.ml" 202 5986 5992 "bitmap.ml" 202 5986 5999
+)
+"bitmap.ml" 235 7075 7087 "bitmap.ml" 235 7075 7091
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 234 7024 7032 "bitmap.ml" 234 7024 7036
+)
+"bitmap.ml" 235 7075 7079 "bitmap.ml" 235 7075 7091
+type(
+  unit
+)
+"bitmap.ml" 236 7093 7101 "bitmap.ml" 236 7093 7102
+type(
+  bytes
+)
+ident(
+  def s "bitmap.ml" 237 7127 7137 "bitmap.ml" 250 7523 7530
+)
+"bitmap.ml" 236 7093 7105 "bitmap.ml" 236 7093 7118
+type(
+  int -> bytes
+)
+ident(
+  int_ref string_create "bitmap.ml" 41 1450 1454 "bitmap.ml" 41 1450 1467
+)
+"bitmap.ml" 236 7093 7119 "bitmap.ml" 236 7093 7123
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 234 7024 7032 "bitmap.ml" 234 7024 7036
+)
+"bitmap.ml" 236 7093 7105 "bitmap.ml" 236 7093 7123
+type(
+  bytes
+)
+"bitmap.ml" 237 7127 7143 "bitmap.ml" 237 7127 7147
+type(
+  bytes option
+)
+ident(
+  int_ref init "bitmap.ml" 232 6939 6980 "bitmap.ml" 232 6939 6984
+)
+"bitmap.ml" 238 7153 7164 "bitmap.ml" 238 7153 7165
+type(
+  bytes
+)
+ident(
+  def v "bitmap.ml" 238 7153 7169 "bitmap.ml" 238 7153 7184
+)
+"bitmap.ml" 238 7153 7159 "bitmap.ml" 238 7153 7165
+type(
+  bytes option
+)
+"bitmap.ml" 238 7153 7169 "bitmap.ml" 238 7153 7180
+type(
+  bytes -> bytes -> unit
+)
+ident(
+  int_ref fill_string "bitmap.ml" 97 2851 2857 "bitmap.ml" 97 2851 2868
+)
+"bitmap.ml" 238 7153 7181 "bitmap.ml" 238 7153 7182
+type(
+  bytes
+)
+ident(
+  int_ref s "bitmap.ml" 236 7093 7101 "bitmap.ml" 236 7093 7102
+)
+"bitmap.ml" 238 7153 7183 "bitmap.ml" 238 7153 7184
+type(
+  bytes
+)
+ident(
+  int_ref v "bitmap.ml" 238 7153 7164 "bitmap.ml" 238 7153 7165
+)
+"bitmap.ml" 238 7153 7169 "bitmap.ml" 238 7153 7184
+type(
+  unit
+)
+"bitmap.ml" 239 7185 7191 "bitmap.ml" 239 7185 7195
+type(
+  bytes option
+)
+"bitmap.ml" 239 7185 7199 "bitmap.ml" 239 7185 7201
+type(
+  unit
+)
+"bitmap.ml" 237 7127 7137 "bitmap.ml" 239 7185 7201
+type(
+  unit
+)
+"bitmap.ml" 241 7211 7219 "bitmap.ml" 241 7211 7222
+type(
+  '_c
+)
+ident(
+  def blk "bitmap.ml" 248 7438 7442 "bitmap.ml" 250 7523 7530
+)
+"bitmap.ml" 242 7225 7247 "bitmap.ml" 242 7225 7252
+type(
+  int
+)
+ident(
+  int_ref width "bitmap.ml" 232 6939 6967 "bitmap.ml" 232 6939 6972
+)
+"bitmap.ml" 243 7254 7277 "bitmap.ml" 243 7254 7283
+type(
+  int
+)
+ident(
+  int_ref height "bitmap.ml" 232 6939 6973 "bitmap.ml" 232 6939 6979
+)
+"bitmap.ml" 244 7285 7306 "bitmap.ml" 244 7285 7310
+type(
+  int
+)
+ident(
+  int_ref size "bitmap.ml" 234 7024 7032 "bitmap.ml" 234 7024 7036
+)
+"bitmap.ml" 245 7312 7342 "bitmap.ml" 245 7312 7343
+type(
+  bytes
+)
+ident(
+  int_ref s "bitmap.ml" 236 7093 7101 "bitmap.ml" 236 7093 7102
+)
+"bitmap.ml" 245 7312 7333 "bitmap.ml" 245 7312 7343
+type(
+  block_data
+)
+"bitmap.ml" 246 7345 7365 "bitmap.ml" 246 7345 7373
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"bitmap.ml" 246 7345 7374 "bitmap.ml" 246 7345 7376
+type(
+  unit
+)
+"bitmap.ml" 246 7345 7365 "bitmap.ml" 246 7345 7376
+type(
+  float
+)
+"bitmap.ml" 247 7378 7393 "bitmap.ml" 247 7378 7432
+type(
+  bytes option
+)

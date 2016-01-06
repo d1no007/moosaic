@@ -1,0 +1,2 @@
+title: Moosaic
+seas-usernames: dinorodriguez, gmerz, chasedavis, samuelstone

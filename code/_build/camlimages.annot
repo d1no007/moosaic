@@ -1,0 +1,154 @@
+"camlimages.ml" 17 1036 1040 "camlimages.ml" 17 1036 1047
+type(
+  bytes
+)
+ident(
+  def version "camlimages.ml" 20 1087 1087 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 17 1036 1050 "camlimages.ml" 17 1036 1057
+type(
+  bytes
+)
+"camlimages.ml" 20 1087 1091 "camlimages.ml" 20 1087 1098
+type(
+  bool
+)
+ident(
+  def lib_gif "camlimages.ml" 21 1109 1109 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 20 1087 1101 "camlimages.ml" 20 1087 1106
+type(
+  bool
+)
+"camlimages.ml" 21 1109 1113 "camlimages.ml" 21 1109 1120
+type(
+  bool
+)
+ident(
+  def lib_png "camlimages.ml" 22 1131 1131 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 21 1109 1123 "camlimages.ml" 21 1109 1128
+type(
+  bool
+)
+"camlimages.ml" 22 1131 1135 "camlimages.ml" 22 1131 1143
+type(
+  bool
+)
+ident(
+  def lib_jpeg "camlimages.ml" 23 1154 1154 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 22 1131 1146 "camlimages.ml" 22 1131 1151
+type(
+  bool
+)
+"camlimages.ml" 23 1154 1158 "camlimages.ml" 23 1154 1166
+type(
+  bool
+)
+ident(
+  def lib_tiff "camlimages.ml" 24 1177 1177 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 23 1154 1169 "camlimages.ml" 23 1154 1174
+type(
+  bool
+)
+"camlimages.ml" 24 1177 1181 "camlimages.ml" 24 1177 1193
+type(
+  bool
+)
+ident(
+  def lib_freetype "camlimages.ml" 25 1204 1204 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 24 1177 1196 "camlimages.ml" 24 1177 1201
+type(
+  bool
+)
+"camlimages.ml" 25 1204 1208 "camlimages.ml" 25 1204 1214
+type(
+  bool
+)
+ident(
+  def lib_ps "camlimages.ml" 26 1224 1224 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 25 1204 1217 "camlimages.ml" 25 1204 1221
+type(
+  bool
+)
+"camlimages.ml" 26 1224 1228 "camlimages.ml" 26 1224 1235
+type(
+  bool
+)
+ident(
+  def lib_xpm "camlimages.ml" 29 1268 1268 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 26 1224 1238 "camlimages.ml" 26 1224 1243
+type(
+  bool
+)
+"camlimages.ml" 29 1268 1272 "camlimages.ml" 29 1268 1284
+type(
+  bytes
+)
+ident(
+  def path_rgb_txt "camlimages.ml" 30 1308 1308 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 29 1268 1287 "camlimages.ml" 29 1268 1305
+type(
+  bytes
+)
+"camlimages.ml" 30 1308 1312 "camlimages.ml" 30 1308 1319
+type(
+  bytes
+)
+ident(
+  def path_gs "camlimages.ml" 33 1389 1389 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 30 1308 1322 "camlimages.ml" 30 1308 1335
+type(
+  bytes
+)
+"camlimages.ml" 33 1389 1393 "camlimages.ml" 33 1389 1400
+type(
+  bool
+)
+ident(
+  def lib_ppm "camlimages.ml" 34 1410 1410 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 33 1389 1403 "camlimages.ml" 33 1389 1407
+type(
+  bool
+)
+"camlimages.ml" 34 1410 1414 "camlimages.ml" 34 1410 1421
+type(
+  bool
+)
+ident(
+  def lib_bmp "camlimages.ml" 35 1431 1431 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 34 1410 1424 "camlimages.ml" 34 1410 1428
+type(
+  bool
+)
+"camlimages.ml" 35 1431 1435 "camlimages.ml" 35 1431 1446
+type(
+  bool
+)
+ident(
+  def lib_xvthumb "camlimages.ml" 38 1521 1521 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 35 1431 1449 "camlimages.ml" 35 1431 1453
+type(
+  bool
+)
+"camlimages.ml" 38 1521 1525 "camlimages.ml" 38 1521 1534
+type(
+  int
+)
+ident(
+  def word_size "camlimages.ml" 38 1521 1538 "camlimages.ml" 1 0 -1
+)
+"camlimages.ml" 38 1521 1537 "camlimages.ml" 38 1521 1538
+type(
+  int
+)

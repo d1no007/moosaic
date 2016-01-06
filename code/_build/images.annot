@@ -1,0 +1,40 @@
+"images.ml" 29 1404 1404 "images.ml" 29 1404 1416
+type(
+  (unit -> unit) ref
+)
+ident(
+  ext_ref Region.error
+)
+"images.ml" 29 1404 1425 "images.ml" 29 1404 1427
+type(
+  unit
+)
+"images.ml" 29 1404 1431 "images.ml" 29 1404 1436
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"images.ml" 29 1404 1437 "images.ml" 29 1404 1449
+type(
+  exn
+)
+"images.ml" 29 1404 1431 "images.ml" 29 1404 1449
+type(
+  unit
+)
+"images.ml" 29 1404 1425 "images.ml" 29 1404 1449
+type(
+  unit -> unit
+)
+"images.ml" 29 1404 1404 "images.ml" 29 1404 1450
+type(
+  unit
+)
+type(
+  (unit -> unit) ref -> (unit -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)

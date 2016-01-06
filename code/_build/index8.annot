@@ -1,0 +1,256 @@
+"index8.ml" 21 1068 1074 "index8.ml" 21 1068 1089
+type(
+  t
+)
+ident(
+  def bytes_per_pixel "index8.ml" 22 1094 1096 "index8.ml" 30 1286 1289
+)
+"index8.ml" 21 1068 1092 "index8.ml" 21 1068 1093
+type(
+  t
+)
+"index8.ml" 22 1094 1100 "index8.ml" 22 1094 1103
+type(
+  bytes -> t -> t
+)
+ident(
+  def get "index8.ml" 24 1140 1142 "index8.ml" 30 1286 1289
+)
+"index8.ml" 22 1094 1104 "index8.ml" 22 1094 1107
+type(
+  bytes
+)
+ident(
+  def str "index8.ml" 22 1094 1108 "index8.ml" 23 1114 1139
+)
+"index8.ml" 22 1094 1108 "index8.ml" 22 1094 1111
+type(
+  t
+)
+ident(
+  def pos "index8.ml" 23 1114 1118 "index8.ml" 23 1114 1139
+)
+"index8.ml" 23 1114 1118 "index8.ml" 23 1114 1129
+type(
+  char -> t
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"index8.ml" 23 1114 1130 "index8.ml" 23 1114 1133
+type(
+  bytes
+)
+ident(
+  int_ref str "index8.ml" 22 1094 1104 "index8.ml" 22 1094 1107
+)
+"index8.ml" 23 1114 1135 "index8.ml" 23 1114 1138
+type(
+  t
+)
+ident(
+  int_ref pos "index8.ml" 22 1094 1108 "index8.ml" 22 1094 1111
+)
+"index8.ml" 23 1114 1130 "index8.ml" 23 1114 1139
+type(
+  char
+)
+type(
+  bytes -> t -> char
+)
+ident(
+  ext_ref String.get
+)
+"index8.ml" 23 1114 1118 "index8.ml" 23 1114 1139
+type(
+  t
+)
+"index8.ml" 22 1094 1108 "index8.ml" 23 1114 1139
+type(
+  t -> t
+)
+"index8.ml" 22 1094 1104 "index8.ml" 23 1114 1139
+type(
+  bytes -> t -> t
+)
+"index8.ml" 24 1140 1146 "index8.ml" 24 1140 1149
+type(
+  bytes -> t -> t -> unit
+)
+ident(
+  def set "index8.ml" 26 1200 1202 "index8.ml" 30 1286 1289
+)
+"index8.ml" 24 1140 1150 "index8.ml" 24 1140 1153
+type(
+  bytes
+)
+ident(
+  def str "index8.ml" 24 1140 1154 "index8.ml" 25 1162 1199
+)
+"index8.ml" 24 1140 1154 "index8.ml" 24 1140 1157
+type(
+  t
+)
+ident(
+  def pos "index8.ml" 24 1140 1158 "index8.ml" 25 1162 1199
+)
+"index8.ml" 24 1140 1158 "index8.ml" 24 1140 1159
+type(
+  t
+)
+ident(
+  def t "index8.ml" 25 1162 1166 "index8.ml" 25 1162 1199
+)
+"index8.ml" 25 1162 1166 "index8.ml" 25 1162 1175
+type(
+  bytes -> t -> char -> unit
+)
+ident(
+  ext_ref Bytes.set
+)
+"index8.ml" 25 1162 1176 "index8.ml" 25 1162 1179
+type(
+  bytes
+)
+ident(
+  int_ref str "index8.ml" 24 1140 1150 "index8.ml" 24 1140 1153
+)
+"index8.ml" 25 1162 1180 "index8.ml" 25 1162 1183
+type(
+  t
+)
+ident(
+  int_ref pos "index8.ml" 24 1140 1154 "index8.ml" 24 1140 1157
+)
+"index8.ml" 25 1162 1166 "index8.ml" 25 1162 1183
+type(
+  char -> unit
+)
+"index8.ml" 25 1162 1184 "index8.ml" 25 1162 1185
+type(
+  (char -> unit) -> char -> unit
+)
+ident(
+  ext_ref Util.( & )
+)
+"index8.ml" 25 1162 1186 "index8.ml" 25 1162 1197
+type(
+  t -> char
+)
+ident(
+  ext_ref Pervasives.char_of_int
+)
+"index8.ml" 25 1162 1198 "index8.ml" 25 1162 1199
+type(
+  t
+)
+ident(
+  int_ref t "index8.ml" 24 1140 1158 "index8.ml" 24 1140 1159
+)
+"index8.ml" 25 1162 1186 "index8.ml" 25 1162 1199
+type(
+  char
+)
+"index8.ml" 25 1162 1166 "index8.ml" 25 1162 1199
+type(
+  unit
+)
+"index8.ml" 24 1140 1158 "index8.ml" 25 1162 1199
+type(
+  t -> unit
+)
+"index8.ml" 24 1140 1154 "index8.ml" 25 1162 1199
+type(
+  t -> t -> unit
+)
+"index8.ml" 24 1140 1150 "index8.ml" 25 1162 1199
+type(
+  bytes -> t -> t -> unit
+)
+"index8.ml" 26 1200 1206 "index8.ml" 26 1200 1210
+type(
+  t -> bytes
+)
+ident(
+  def make "index8.ml" 29 1278 1285 "index8.ml" 30 1286 1289
+)
+"index8.ml" 26 1200 1211 "index8.ml" 26 1200 1212
+type(
+  t
+)
+ident(
+  def t "index8.ml" 27 1215 1219 "index8.ml" 29 1278 1285
+)
+"index8.ml" 27 1215 1223 "index8.ml" 27 1215 1226
+type(
+  bytes
+)
+ident(
+  def str "index8.ml" 28 1261 1265 "index8.ml" 29 1278 1285
+)
+"index8.ml" 27 1215 1229 "index8.ml" 27 1215 1241
+type(
+  t -> bytes
+)
+ident(
+  ext_ref Bytes.create
+)
+"index8.ml" 27 1215 1242 "index8.ml" 27 1215 1257
+type(
+  t
+)
+ident(
+  int_ref bytes_per_pixel "index8.ml" 21 1068 1074 "index8.ml" 21 1068 1089
+)
+"index8.ml" 27 1215 1229 "index8.ml" 27 1215 1257
+type(
+  bytes
+)
+"index8.ml" 28 1261 1265 "index8.ml" 28 1261 1268
+type(
+  bytes -> t -> t -> unit
+)
+ident(
+  int_ref set "index8.ml" 24 1140 1146 "index8.ml" 24 1140 1149
+)
+"index8.ml" 28 1261 1269 "index8.ml" 28 1261 1272
+type(
+  bytes
+)
+ident(
+  int_ref str "index8.ml" 27 1215 1223 "index8.ml" 27 1215 1226
+)
+"index8.ml" 28 1261 1273 "index8.ml" 28 1261 1274
+type(
+  t
+)
+"index8.ml" 28 1261 1275 "index8.ml" 28 1261 1276
+type(
+  t
+)
+ident(
+  int_ref t "index8.ml" 26 1200 1211 "index8.ml" 26 1200 1212
+)
+"index8.ml" 28 1261 1265 "index8.ml" 28 1261 1276
+type(
+  unit
+)
+"index8.ml" 29 1278 1282 "index8.ml" 29 1278 1285
+type(
+  bytes
+)
+ident(
+  int_ref str "index8.ml" 27 1215 1223 "index8.ml" 27 1215 1226
+)
+"index8.ml" 28 1261 1265 "index8.ml" 29 1278 1285
+type(
+  bytes
+)
+"index8.ml" 27 1215 1219 "index8.ml" 29 1278 1285
+type(
+  bytes
+)
+"index8.ml" 26 1200 1211 "index8.ml" 29 1278 1285
+type(
+  t -> bytes
+)
