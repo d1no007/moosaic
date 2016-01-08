@@ -14,12 +14,12 @@ To run Moosaic:
 5. Run the command masterpiece n "image name" where n is the number of tiles you would like your photo-mosaic to be comprised of, and image_name is the filename of the image you would like to create a mosaic out of 
 
 
-# What code we wrote 
+# Files
 
-The three files that we coded kdtrees.ml, kdtest.ml, and pixels.ml. kdtrees.ml is the structure for the kd tree we used to store images--including the nearest neighbor function that is the heart of the program. In kdtest.ml are the tests we wrote along the way to make sure everything was working, and pixels.ml creates the photo-mosaic and is the main integration with camlimages. 
+The three files that we worked in are kdtrees.ml, kdtest.ml, and pixels.ml. kdtrees.ml is the structure for the kd tree we used to store images--including the nearest neighbor function that is the heart of the program. In kdtest.ml are the tests we wrote along the way to make sure everything was working, and pixels.ml creates the photo-mosaic and is the main integration with camlimages. 
 
-# Installing CamlImages (sketchy) 
-How we installed camlimages (definitely not safe, but how we got it to work): 
+# Installing CamlImages 
+How we installed camlimages (after lots of trial and error): 
 
 1. Download and install camlimages and make via “sudo opam install camlimages”
 
@@ -32,7 +32,7 @@ sudo chmod -R 777 ~/.omake
 
 3. Camlimages package should now appear in utop when you run #list “camlimages”;;
 
-# More mosaics we made 
+# More 
 ![greg](mosaics/outoutgregmoosaic.bmp)
 ![allison](mosaics/outoutallison.bmp)
 ![daven](mosaics/outoutdavdaddyy.bmp)
