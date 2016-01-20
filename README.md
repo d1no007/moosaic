@@ -1,5 +1,5 @@
 # Moosaic: A program for creating BMP Photomosaics written in OCaml 
-### Gabriela Merz (gcmerz), Dino Rodriguez (@d1no007), Chase Davis (@Budabellly), and Samuel Stone 
+### Gabriela Merz, Dino Rodriguez, Chase Davis, and Samuel Stone 
 ![rob](mosaics/outoutrob.bmp)
 
 # Instructions for Using Moosaic 
