@@ -24,11 +24,6 @@ How we installed camlimages (after lots of trial and error):
 1. Download and install camlimages and make via “sudo opam install camlimages”
 
 2. Unlock appropriate permissions
-sudo chmod -R 777 ~/.opam/packages/omake
-sudo chmod -R 777 ~/.opam/packages/camlimages
-sudo chmod -R 777 ~/.opam/system/lib/omake
-sudo chmod -R 777 ~/.opam/system/lib/camlimages
-sudo chmod -R 777 ~/.omake
 
 3. Camlimages package should now appear in utop when you run #list “camlimages”;;
 
